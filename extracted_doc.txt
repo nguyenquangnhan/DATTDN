@@ -1,0 +1,1052 @@
+   
+                   TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN 
+                  VÀ TRUYỀN THÔNG VIỆT - HÀN 
+                KHOA KHOA HỌC MÁY TÍNH
+BÁO CÁO
+THỰC TẬP DOANH NGHIỆP
+XÂY DỰNG NỀN TẢNG QUÉT VĂN BẢN TÍCH HỢP CÔNG NGHỆ OCR TẠI CÔNG TY HICAS
+Sinh viên thực hiện: NGUYỄN QUANG NHÂN
+Lớp: 23SE1
+Giảng viên hướng dẫn: TRỊNH THỊ NGỌC LINH
+Đơn vị thực tập : CÔNG TY TNHH PHẦN MỀM HICAS
+Người hướng dẫn: LÊ VĂN CƯỜNG
+Đà Nẵng, tháng 8 năm 2026
+                      
+ TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN 
+                       VÀ TRUYỀN THÔNG VIỆT - HÀN 
+                    KHOA KHOA HỌC MÁY TÍNH
+BÁO CÁO
+THỰC TẬP DOANH NGHIỆP
+XÂY DỰNG NỀN TẢNG QUÉT VĂN BẢN TÍCH HỢP CÔNG NGHỆ OCR TẠI CÔNG TY HICAS
+Sinh viên thực hiện: NGUYỄN QUANG NHÂN
+Lớp: 23SE1
+Giảng viên hướng dẫn: TRỊNH THỊ NGỌC LINH
+Đơn vị thực tập : CÔNG TY TNHH PHẦN MỀM HICAS
+Người hướng dẫn: LÊ VĂN CƯỜNG
+Đà Nẵng, tháng 8 năm 2026
+PHIẾU NHẬN XÉT CỦA ĐƠN VỊ THỰC TẬP
+(Bản phô-tô)
+LỜI CẢM ƠN
+Để thực tập doanh nghiệp lần này đạt kết quả tốt đẹp, em đã nhận được sự hỗ trợ, giúp đỡ của thầy cô. Với tình cảm sâu sắc, chân thành, cho phép chúng em được bày tỏ lòng biết ơn sâu sắc đến tất cả quý thầy cô đã tạo điều kiện giúp đỡ trong quá trình họctập, nghiên cứu và phát triển đề tài.Trước hết chúng em xin gửi tới quý thầy cô Đại Học Công Nghệ Thông Tin Truyền Thông Việt Hàn - Đại Học Đà Nẵng lời chào trân trọng, lời chúc sức khỏe và lời cảm ơn sâu sắc nhất. Với sự quan tâm, chỉ bảo tận tình và truyền đạt những kiến thức bổ ích cho chúng em suốt thời gian học kỳ vừa rồi, giúp chúng em có thêm nhiều kiến thức và hiểu rõ hơn các vấn đề mình nghiên cứu, đến nay chúng em đã có thể hoàn thành đề tài báo cáo thực tập doanh nghiệp.
+Em cũng xin gửi lời cảm ơn đến công ty Công ty HICAS đã tạo cơ hội và điều kiện giúp em có thể hoàn thành tốt kì thực tập lần này.
+Đặc biệt, em xin gửi lời cảm ơn chân thành nhất đến giảng viên Th.S TRỊNH THỊ NGỌC LINH đã quan tâm giúp đỡ tận tình chúng em hoàn thành đồ án thực tập một cách chỉnh chu và hoàn thiện nhất trong thời gian qua.
+Với điều kiện thời gian cũng như kinh nghiệm còn hạn chế, đồ án thực tập này sẽ không thể tránh được những thiếu sót. Nhóm rất mong nhận được sự chỉ bảo, đóng góp ý kiến của các thầy cô, để chúng em có thể bổ sung, nâng cao kinh nghiệm và kỹ năng của bản thân để phục vụ cho công việc thực tế sau này.
+Em xin chân thành cảm ơn!
+NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN
+MỤC LỤC
+PHIẾU NHẬN XÉT CỦA ĐƠN VỊ THỰC TẬPi
+LỜI CẢM ƠNii
+MỤC LỤCiv
+MỤC LỤC HÌNH ẢNHviii
+BẢNG VIẾT TẮTix
+PHẦN MỞ ĐẦU1
+1. Lý do thực tập1
+2. Mục tiêu thực tập1
+3. Phạm vi thực tập2
+4. Phương pháp nghiên cứu2
+5. Phạm vi nghiên cứu3
+6. Nội dung nghiên cứu3
+7. Bố cục báo cáo thực tập4
+CHƯƠNG 1:GIỚI THIỆU VỀ CÔNG TY HICAS5
+1.1 Cơ quan thực tập5
+1.2 Giới thiệu chung5
+1.3 Mục tiêu hoạt động5
+1.4 Tổ chức hoạt động6
+1.5 Lĩnh vực hoạt động6
+1.6 Các sản phẩm/phương án/giải pháp6
+1.7 Tổng kết chương 17
+CHƯƠNG 2: TỔNG QUAN8
+2.1. Đặt vấn đề và phân tích thực trạng8
+2.1.1. Bối cảnh và Tính cấp thiết của đề tài8
+2.1.2.Phân tích các bất hợp lý hiện tồn tại8
+2.1.3 Lý giải nguyên nhân sâu xa của vấn đề9
+2.2.Mục tiêu, Phương pháp và Phạm vi nghiên cứu9
+2.2.1 Mục tiêu nghiên cứu9
+2.2.2 Phương pháp nghiên cứu9
+2.2.3 Phạm vi nghiên cứu10
+2.3 Phương tiện và Cơ sở công nghệ sử dụng10
+2.3.1 Đặc tả Ngôn ngữ lập trình và Môi trường phát triển10
+2.3.1.1. Ngôn ngữ Python10
+2.3.1.2. Ngôn ngữ TypeScript / JavaScript & Node.js11
+2.3.1.3. Trình quản lý gói uv11
+2.3.2 Đặc tả Frontend Framework & UI Core12
+2.3.2.1. Next.js12
+2.3.2.2. Tailwind CSS & Lucide React12
+2.3.3 Đặc tả Backend Framework13
+2.3.4 Đặc tả LangChain & Google Gemini API13
+2.3.4.1. Google Gemini API13
+2.3.4.2. Khung điều phối LangChain Framewor14
+2.3.5 Đặc tả Cơ sở dữ liệu14
+2.3.5.1. PostgreSQL kết hợp Extension pgvector14
+2.3.5.2. Neo4j Graph Database (Đồ thị tri thức)15
+2.3.6 Đặc tả Bộ công cụ trích xuất tri thức đa nguồn15
+2.3.6.1. PyMuPDF15
+2.3.6.2. PaddleOCR15
+2.3.6.3. BeautifulSoup4 & Requests16
+2.3.7 Đặc tả Hạ tầng và Công cụ bổ trợ16
+2.3.7.1. Docker & Docker Compose16
+2.3.7.2. Postman16
+CHƯƠNG 3:ĐỀ XUẤT GIẢI PHÁP, PHƯƠNG ÁN VÀ SẢN PHẨM CẢI THIỆN HIỆN TRẠNG18
+3.1. Đề xuất nhóm giải pháp kỹ thuật nâng cao hiệu năng và tối ưu hóa hệ thống18
+3.1.1. Tối ưu hóa đường ống xử lý dữ liệu và OCR bằng hàng đợi tác vụ bất đồng bộ18
+3.1.2. Nâng cấp bộ cào dữ liệu web động bằng Headless Browser18
+3.2. Đề xuất nhóm giải pháp Nâng cao chất lượng RAG và Đồ thị Tri thức18
+3.2.1. Triển khai cơ chế Tìm kiếm Lai đa tầng18
+3.2.2. Chuẩn hóa và Khử trùng lặp Thực thể trên Đồ thị Tri thức19
+3.2.3. Trích dẫn nguồn chi tiết cấp độ trang và đánh dấu đoạn văn bản19
+3.3. Đề xuất mô hình sản phẩm và tính năng mở rộng đột phá20
+3.3.1. Sản phẩm "Xây dưng nền tảng quét văn bản"20
+3.3.2. Trình tương tác và truy vấn Đồ thị Tri thức trực quan20
+3.4. Đề xuất phương án Kiến trúc Bảo mật và Phân quyền Đa người dùng20
+3.4.1. Kiến trúc phân quyền và quản lý tài khoản người dùng20
+3.4.2. Cơ chế bảo vệ quyền riêng tư dữ liệu và mã hóa lưu trữ21
+3.5. Tổng kết chương 321
+CHƯƠNG 4: PHÂN TÍCH THIẾT KẾ HỆ THỐNG HỆ THỐNG22
+4.1 Công nghệ chính của đề tài22
+4.1.1 Yêu cầu chức năng23
+4.1.1.1. Public Web (Người dùng chưa đăng nhập)23
+4.1.1.2. Người dùng đã đăng nhập23
+4.1.2 Yêu cầu phi chức năng25
+4.2 Biểu Đồ Ca Sử Dụng (UseCase)25
+4.2.1 Xác định các thành phần (Actor)25
+4.2.2 Các UseCase chính25
+4.2.3 Vẽ Mô Tả UseCase26
+4.2.3.1 Tổng quan Sơ đồ Use-Case tổng quát26
+4.2.3.1 Use-Case đăng nhập27
+4.2.3.1 Use-Case đăng kí27
+4.2.3.2 Use Case: Quản lý Nguồn tài liệu28
+4.2.3.3 Use Case: Hỏi đáp AI29
+4.2.3.4 Use Case: Khám phá Đồ thị Tri thức29
+4.3 Mô tả biểu đồ trình tự31
+4.3.1 Biểu đồ trình tự đăng nhập31
+4.3.2 Biểu đồ trình tự đăng ký32
+4.3.3 Biểu đồ trình tự quản lý nguồn tài liệu33
+4.3.4 Biểu đồ trình tự hỏi đáp AI34
+4.3.5 Biểu đồ trình tự khám phá đồ thị tri thức35
+4.4 Mô tả biểu đồ hoạt động36
+4.4.1 Biểu đồ hoạt động đăng nhập36
+4.4.2 Biểu đồ Hoạt động: Đăng ký37
+4.4.3 Biểu đồ hoạt động quản lý nguồn tài liệu39
+4.4.4 Biểu đồ hoạt động hỏi đáp AI41
+4.4.5 Biểu đồ hoạt động khám phá đồ thị tri thức42
+4.5 Mô tả cơ sở dữ liệu43
+CHƯƠNG 5: TRIỂN KHAI VÀ XÂY DỰNG44
+KIẾN NGHỊ VÀ KẾT LUẬN49
+TÀI LIỆU THAM KHẢO50
+MỤC LỤC HÌNH ẢNH
+Hình 1.1: Logo công ty TNHH HICAS5
+Hình 2.1: Logo ngôn ngữ lập trình Python 3.1211
+Hình 2.2: Logo JavaScript / TypeScript và Node.js11
+Hình 2.3: Logo Next.js12
+Hình 2.4: Logo Tailwind CSS & Lucide React13
+Hình 2.5: Logo Google Gemini AI14
+Hình 2.6: Sơ đồ luồng điều phối quy trình RAG bằng LangChain Framework14
+Hình 2.7: Logo PostgreSQL pgvector15
+Hình 2.10: Trực quan hóa sơ đồ Đồ thị tri thức trên giao diện Neo4j15
+Hình 2.8: Logo Docker16
+Hình 2.9: Logo Postman17
+Hình 4.1: UseCase tổng quát26
+Hình 4.2: UseCase Quản lý đăng nhập26
+Hình 4.3: UseCase Quản lý đăng ký27
+Hình 4.4: UseCase Quản lý Nguồn tài liệu28
+Hình 4.5: UseCase Hỏi đáp29
+Hình 4.6: UseCase Đồ thị tri thức29
+Hình 4.7: Biểu đồ trình tự đăng nhập31
+Hình 4.8: Biểu đồ trình tự đăng ký32
+Hình 4.9: Biểu đồ trình tự Quản lý Nguồn tài liệu33
+Hình 4.10: Biểu đồ Trình tự Hỏi đáp AI34
+Hình 4.11: Biểu đồ Trình tự Khám phá Đồ thị Tri thức35
+Hình 4.12: Biểu đồ Hoạt động Đăng nhập36
+Hình 4.13: Biểu đồ Hoạt động: Đăng ký37
+Hình 4.14: Biểu đồ Hoạt động Quản lý Nguồn tài liệu39
+Hình 4.15: Biểu đồ Hoạt động Hỏi đáp AI41
+Hình 4.16: Biểu đồ Hoạt động: Khám phá Đồ thị Tri thức42
+BẢNG VIẾT TẮT
+Từ viết tắt
+Ý nghĩa
+Ghi chú
+AI
+Artificial Intelligence
+Trí tuệ nhân tạo
+API
+Application Programming Interface
+Giao diện lập trình ứng dụng
+ASGI
+Asynchronous Server Gateway Interface
+Giao diện cổng máy chủ xử lý bất đồng bộ
+AWS
+Amazon Web Services
+Dịch vụ điện toán đám mây của Amazon
+BIM
+Building Information Modeling
+Mô hình hóa thông tin công trình
+BM25
+Best Matching 25
+Thuật toán xếp hạng tìm kiếm văn bản toàn văn
+CAD
+Computer-Aided Design
+Thiết kế có sự hỗ trợ của máy tính
+CDE
+Common Data Environment
+Môi trường dữ liệu chung dùng trong dự án
+CNN
+Convolutional Neural Network
+Mạng thần kinh tích chập (dùng trong học máy/AI)
+CPU
+Central Processing Unit
+Bộ xử lý trung tâm của máy tính
+DWG
+Drawing
+Định dạng tệp tin bản vẽ đồ họa CAD
+GraphRAG
+Knowledge Graph Retrieval-Augmented Generation
+Tạo câu trả lời tăng cường truy xuất kết hợp Đồ thị tri thức
+HTML
+HyperText Markup Language
+Ngôn ngữ đánh dấu siêu văn bản cho trang web
+HTTPS
+HyperText Transfer Protocol Secure
+Giao thức truyền tải siêu văn bản bảo mật
+IDE
+Integrated Development Environment
+Môi trường phát triển tích hợp (trình soạn thảo code)
+PHẦN MỞ ĐẦU
+1. Lý do thực tập
+Thực tập tốt nghiệp là giai đoạn quan trọng trong quá trình học tập của sinh viên. Ngoài ra, thực tập doanh nghiệp cũng là môn học bắt buộc rất cần thiết với chương trình đào tạo của khoa Khoa học máy tính.
+Bên cạnh đó, kỳ thực tập này mang lại cho sinh viên hiểu biết nhiều hơn về tình hình thực tế khi học và làm việc ngoài môi trường giảng đường, dưới đây là một vài lý do tại sao nên đi thực tập:
+Áp dụng kiến thức vào thực tế: Thực tập là cơ hội để sinh viên chuyển những kiến thức lý thuyết đã học trên giảng đường thành kỹ năng thực tế. Điều này giúp họ hiểu rõ hơn về cách các quy trình và công việc thực sự diễn ra trong doanh nghiệp.
+Phát triển kỹ năng chuyên môn và mềm: Trong môi trường thực tập, sinh viên có thể nâng cao các kỹ năng chuyên môn như sử dụng công cụ, phần mềm, và quy trình cụ thể trong ngành. Đồng thời, họ cũng phát triển các kỹ năng mềm quan trọng như làm việc nhóm, giao tiếp hiệu quả, giải quyết vấn đề, và quản lý thời gian.
+Tích lũy kinh nghiệm làm việc: Kinh nghiệm thực tế trong quá trình thực tập giúp sinh viên hiểu được yêu cầu công việc và quy trình làm việc tại doanh nghiệp. Đây là điểm mạnh giúp họ nổi bật trong quá trình tuyển dụng sau khi tốt nghiệp, khi nhà tuyển dụng thường ưu tiên những ứng viên đã có kinh nghiệm.
+Mở rộng mạng lưới quan hệ: Thực tập là cơ hội để sinh viên kết nối với những người trong ngành, bao gồm đồng nghiệp, quản lý, và các chuyên gia. Mạng lưới này có thể mang lại lợi ích lớn cho sự nghiệp tương lai của họ, bao gồm cả cơ hội việc làm.
+Xác định hướng đi nghề nghiệp: Thực tập giúp sinh viên trải nghiệm thực tế công việc trong ngành mà họ theo đuổi, từ đó giúp họ xác định rõ hơn liệu đây có phải là con đường phù hợp hay không.
+Cơ hội việc làm sau khi tốt nghiệp: Nhiều doanh nghiệp sử dụng chương trình thực tập như một kênh tuyển dụng. Nếu sinh viên thể hiện tốt trong quá trình thực tập, họ có thể được doanh nghiệp giữ lại làm việc chính thức sau khi tốt nghiệp, tiết kiệm thời gian tìm kiếm việc làm.
+Tóm lại, thực tập doanh nghiệp không chỉ cung cấp kiến thức và kỹ năng quý giá mà còn mở ra cơ hội nghề nghiệp rộng lớn cho sinh viên, chuẩn bị cho họ một bước đệm vững chắc trước khi bước vào thị trường lao động.
+2. Mục tiêu thực tập
+Thông qua kỳ thực tập doanh nghiệp, em hướng đến những mục tiêu chính sau:
+Áp dụng kiến thức và kỹ năng: Thực tập giúp sinh viên áp dụng kiến thức lý thuyết đã học vào môi trường làm việc thực tế. Mục tiêu là giúp sinh viên hiểu cách các khái niệm và phương pháp học được trên lớp hoạt động trong thực tế công việc.
+Phát triển kỹ năng chuyên môn và kỹ năng mềm: Sinh viên có cơ hội phát triển các kỹ năng chuyên môn liên quan đến ngành học của họ, như sử dụng công cụ và phần mềm chuyên ngành, và các kỹ năng mềm như giao tiếp, làm việc nhóm, và giải quyết vấn đề.
+Tích lũy kinh nghiệm thực tế: Mục tiêu là cung cấp cho sinh viên kinh nghiệm thực tế trong môi trường làm việc, giúp họ hiểu quy trình công việc, cách làm việc trong một tổ chức, và các thách thức thực tế mà ngành nghề đó đối mặt.
+Khám phá và xác định hướng nghề nghiệp: Thực tập giúp sinh viên khám phá liệu ngành nghề và loại công việc mà họ thực hiện có phù hợp với sở thích và mục tiêu nghề nghiệp của họ hay không. Điều này có thể giúp họ điều chỉnh kế hoạch nghề nghiệp nếu cần thiết.
+Xây dựng mối quan hệ và mạng lưới chuyên nghiệp: Thực tập là cơ hội để sinh viên tạo lập và mở rộng mạng lưới quan hệ trong ngành nghề của mình. Những mối quan hệ này có thể hữu ích cho việc tìm kiếm cơ hội việc làm trong tương lai.
+Hoàn thành dự án hoặc nhiệm vụ cụ thể: Trong nhiều chương trình thực tập, sinh viên được giao các dự án hoặc nhiệm vụ cụ thể. Mục tiêu là hoàn thành các nhiệm vụ này một cách hiệu quả và chất lượng, từ đó chứng minh khả năng và kỹ năng của mình.
+Chuẩn bị cho sự nghiệp sau khi tốt nghiệp: Thực tập giúp sinh viên chuẩn bị cho bước chuyển tiếp từ việc học tập sang môi trường làm việc chuyên nghiệp. Đây là cơ hội để họ làm quen với quy trình tuyển dụng, phong cách làm việc của doanh nghiệp, và các yêu cầu công việc.
+Nhận xét và cải thiện kỹ năng cá nhân: Sinh viên có thể nhận được phản hồi từ các quản lý và đồng nghiệp trong quá trình thực tập, giúp họ nhận diện điểm mạnh và điểm yếu của bản thân, từ đó cải thiện kỹ năng và hiệu suất công việc.
+Những mục tiêu này không chỉ giúp chúng em hoàn thiện bản thân mà còn chuẩn bị tốt cho sự nghiệp sau khi tốt nghiệp, làm tăng khả năng cạnh tranh của họ trên thị trường lao động.
+3. Phạm vi thực tập
+Địa điểm thực tập: Công ty TNHH Hicas
+Ngày bắt đầu thực tập: 01/6/2026
+Ngày kết thúc thực tập: 1/8/2026
+4. Phương pháp nghiên cứu
+Trong quá trình thực tập, để hoàn thành tốt các công việc được giao em tiếp cận các công việc theo các phương pháp sau:
+Nghiên cứu tài liệu văn bản.
+Tìm hiểu về doanh nghiệp: Trước khi bắt đầu thực tập, nghiên cứu kỹ về lịch sử, cấu trúc tổ chức, sản phẩm, dịch vụ, và mục tiêu của doanh nghiệp. Đọc báo cáo tài chính, tài liệu chiến lược, và các thông tin liên quan khác.
+Nghiên cứu ngành nghề: Nắm vững các xu hướng, thách thức, và cơ hội trong ngành nghề mà doanh nghiệp hoạt động. Đọc các bài viết chuyên ngành, báo cáo nghiên cứu thị trường, và các tài liệu học thuật.
+Phân tích công việc và nhiệm vụ.
+Đặt mục tiêu rõ ràng: Xác định các mục tiêu và nhiệm vụ cụ thể mà nhóm sẽ thực hiện trong thời gian thực tập. Hiểu rõ vai trò của mình trong dự án hoặc công việc được giao.
+Phân tích quy trình công việc: Quan sát và phân tích quy trình làm việc của đội ngũ mà mình tham gia. Ghi nhận các bước, công cụ, và kỹ thuật được sử dụng để hoàn thành các nhiệm vụ.
+Quan sát và học hỏi.
+Học hỏi các đồng nghiệp và quản lý: Tiến hành phỏng vấn để thu thập thông tin về các quy trình, kỹ thuật, và chiến lược của doanh nghiệp. Đây là cách tốt để hiểu sâu về công việc và lĩnh vực chuyên môn.
+Quan sát hoạt động hàng ngày: Quan sát các hoạt động hàng ngày của doanh nghiệp để hiểu cách các nhóm làm việc và tương tác với nhau. Ghi nhận các vấn đề, thách thức, và cơ hội cải thiện.
+Ghi chép và tài liệu hóa
+Ghi chép chi tiết: Duy trì nhật ký thực tập để ghi lại các nhiệm vụ, dự án, và những điều học được mỗi ngày. Điều này giúp chúng em theo dõi tiến trình và phát hiện những điểm cần cải thiện.
+Tài liệu hóa kết quả: Lưu trữ và tổ chức tất cả các tài liệu và báo cáo liên quan đến công việc và dự án bản thân thực hiện. Điều này sẽ hữu ích cho việc viết báo cáo thực tập và trình bày kết quả.
+Thực hiện nghiên cứu ứng dụng
+Nghiên cứu vấn đề cụ thể: Đề tài nhóm em được giao một dự án nghiên cứu và giải quyết vấn đề, vì vậy chúng em áp dụng các phương pháp nghiên cứu ứng dụng để tìm hiểu và đề xuất giải pháp.
+Tạo báo cáo và đề xuất: Viết báo cáo về kết quả nghiên cứu và đề xuất các giải pháp hoặc cải tiến dựa trên những gì mà nhóm đã học được trong thời gian thực tập.
+Phản hồi và ý kiến
+Nhận phản hồi: Tìm kiếm phản hồi từ quản lý và đồng nghiệp về công việc của nhóm. Sử dụng phản hồi này để cải thiện kỹ năng và hiệu suất.
+Tự đánh giá: Thực hiện tự đánh giá để nhận diện các điểm mạnh và điểm yếu của bản thân. Xây dựng kế hoạch cải tiến để phát triển các kỹ năng cần thiết.
+Áp dụng các phương pháp nghiên cứu này giúp nhóm chúng em thực tập tốt nghiệp có một cái nhìn sâu sắc hơn về môi trường làm việc, từ đó tối ưu hóa hiệu quả thực tập và chuẩn bị tốt hơn cho sự nghiệp tương lai.
+5. Phạm vi nghiên cứu
+Vì đang trong giai đoạn học tập tại chương trình, cá nhân em được công ty giao nhiệm vụ hoàn thành nền tảng quét văn bản tích hợp công nghệ OCR và mô hình trí tuệ nhân tạo trong quá trình thực thực tập. Phạm vi nghiên cứu tập trung vào việc tìm hiểu, phân tích và xây dựng hệ thống hỏi đáp dựa trên ngữ cảnh đồ thị tri thức cơ bản , đảm bảo có thể hỗ trợ người dùng cuối trong việc tải lên, số hóa tài liệu từ PDF, hình ảnh, URL, theo dõi trực quan hóa sơ đồ tư duy thực thể và khai thác thông tin nhanh chóng qua giao diện chat AI trực quan.
+6. Nội dung nghiên cứu
+Để hoàn thành đề tài thực tập doanh nghiệp lần này, Em tập trung nghiên cứu những nội dung chính sau:
+Nghiên cứu Next.js để làm giao diện người dùng cuối:
+Giao diện Dashboard hợp nhất : Sử dụng Next.js 15 để xây dựng ứng dụng trang đơn hiện đại. Tìm hiểu cơ chế Client-Side Rendering để tích hợp các thành phần tương tác động thời gian thực như khung chat AI và trình quản lý tài liệu.
+Trực quan hóa Đồ thị tri thức : Nghiên cứu tích hợp thư viện vẽ đồ thị động để hiển thị các nút thực thể thông tin và liên kết mạng lưới ngữ nghĩa dưới dạng sơ đồ mạng tương tác, giúp người dùng dễ dàng khám phá cấu trúc liên kết trong tài liệu.
+Trải nghiệm người dùng (UX/UI): Sử dụng Tailwind CSS để thiết kế giao diện hiện đại theo phong cách tối giản , tích hợp hiệu ứng chuyển động mượt mà , các thành phần quản lý Notebook, tải lên nguồn tài liệu đa dạng từ PDF, hình ảnh, URL và hiển thị nguồn trích dẫn tương tác trực tiếp khi chat.
+Nghiên cứu FastAPI  xây dựng hệ thống High-performance RESTful API & Xử lý tài liệu:
+RESTful API & Streaming: Xây dựng hệ thống API bất đồng bộ  tốc độ cao bằng FastAPI kết hợp Pydantic để kiểm soát dữ liệu đầu vào. Triển khai cơ chế Server-Sent Events để truyền phát câu trả lời từ AI theo thời gian thực về phía Client.
+Pipeline xử lý tài liệu: Xây dựng quy trình tự động bóc tách tài liệu số đa nguồn. Tích hợp thư viện PyMuPDF cho tệp tin văn bản thông thường và PaddleOCR xử lý song song đa nhân để tối ưu hóa nhận diện chữ từ hình ảnh và các trang tài liệu quét. Chia nhỏ văn bản bằng thuật toán RecursiveCharacterTextSplitter.
+Quản lý Cơ sở dữ liệu hỗn hợp: Nghiên cứu kết nối cơ sở dữ liệu quan hệ PostgreSQL thông qua SQLAlchemy ORM để quản lý cấu trúc metadata của hệ thống Notebooks, Sources, Chat history và kết nối Cơ sở dữ liệu đồ thị Neo4j để quản lý quan hệ dữ liệu liên kết.
+Tìm hiểu các công nghệ tiên tiến đang được doanh nghiệp ưa chuộng như GraphRAG, Vector Database và AI LLMs:.
+GraphRAG : Nghiên cứu giải pháp RAG thế hệ mới bằng cách kết hợp Tìm kiếm Vector ngữ nghĩa  và Tìm kiếm mối quan hệ cấu trúc trên đồ thị. Sử dụng Neo4j Vector Index để truy vấn các đoạn chunk tương đồng và kết nối thông tin mở rộng từ các thực thể lân cận nhằm làm phong phú ngữ cảnh cung cấp cho LLM.
+Neo4j Graph Database & Vector DB: Nghiên cứu lưu trữ dữ liệu phi cấu trúc dưới dạng đồ thị tri thức, xây dựng chỉ mục vector cosine 768 chiều để thực hiện tìm kiếm ngữ nghĩa trực tiếp trên các Node Chunk, đồng thời tối ưu hóa các câu lệnh Cypher Query phục vụ truy vấn subgraph nhanh chóng.
+Google Gemini API: Tìm hiểu cách ứng dụng mô hình ngôn ngữ lớn cho hai tác vụ cốt lõi: Trích xuất tri thức dạng cấu trúc để tự động định hình các nút thực thể/quan hệ từ dữ liệu thô, và Sinh câu trả lời dựa trên ngữ cảnh được kiểm chứng từ tài liệu.
+7. Bố cục báo cáo thực tập
+Chương 1 (đơn vị thực tập): Trình bày đầy đủ thông tin, giới thiệu.
+Chương 2 (tổng quan): Trình bày về các công cụ lập trình, ngôn ngữ lập trình cũng như các kiến thức được học và tìm hiểu để áp dụng xây dựng nên ứng dụng web Api chẩn đoán lỗi phát âm.
+Chương 3 (triển khai xây dựng): Trình bày về quá trình thu thập tài nguyên và triển khai phương án xây dựng ứng dụng.
+Chương 4:
+Chương 5: 
+CHƯƠNG 1:GIỚI THIỆU VỀ CÔNG TY HICAS
+ Cơ quan thực tập
+Tên cơ quan: Công ty TNHH Phần mềm HiCAS
+Địa chỉ:  107 ngõ 92 Mai Động, Phường Tương Mai, TP Hà Nội
+Email:  vn@hicas.com
+Website:  Công ty TNHH Phần mềm HiCAS - https://hicas.vn/
+Giới thiệu chung
+HiCAS là công ty phần mềm chuyên cung cấp giải pháp công nghệ chất lượng cao tại Việt Nam. Chúng tôi không chỉ đơn thuần phát triển phần mềm mà còn đóng vai trò như một ban CNTT của khách hàng, đồng hành từ khảo sát thực tế vận hành doanh nghiệp đến triển khai giải pháp tối ưu. Với đội ngũ kỹ sư phần mềm, kiến trúc sư hệ thống và quản lý dự án giàu kinh nghiệm, HiCAS mang đến các sản phẩm hiện đại, đúng tiến độ và phù hợp ngân sách. Ở HiCAS, nguồn nhân lực không chỉ có chuyên môn kỹ thuật cao mà còn giàu tinh thần trách nhiệm, khả năng làm việc nhóm và sự nhiệt huyết. Chúng tôi tập trung vào việc phát triển nguồn nhân lực chất lượng, sẵn sàng đáp ứng nhu cầu trong nước và quốc tế, không chỉ về kỹ năng công nghệ mà còn về kỹ năng giao tiếp và hợp tác.
+Hình 1.1: Logo công ty TNHH HICAS
+Mục tiêu hoạt động
+HiCAS hướng đến mục tiêu trở thành đối tác công nghệ tin cậy, mang đến giải pháp phần mềm và dịch vụ CNTT giúp doanh nghiệp nâng cao hiệu quả vận hành.
+Đồng hành & chia sẻ: Chúng tôi luôn lắng nghe nhu cầu khách hàng, đảm bảo giải pháp được thiết kế sát thực tế và hỗ trợ xuyên suốt quá trình triển khai.
+Chú trọng thực chiến: Các sản phẩm và dịch vụ của HiCAS đều được xây dựng dựa trên kinh nghiệm thực tế, kết hợp công nghệ tiên tiến như AI, BIM, CAD/BIM để mang lại giá trị ứng dụng cao.
+Hỗ trợ phát triển lâu dài: HiCAS không chỉ bàn giao sản phẩm mà còn đồng hành trong việc nâng cấp, tối ưu và mở rộng hệ thống, giúp khách hàng duy trì lợi thế cạnh tranh.
+Đội ngũ chuyên môn cao: Giải pháp được phát triển bởi các chuyên gia nhiều năm kinh nghiệm, am hiểu công nghệ hiện đại và nhu cầu thị trường.
+Tổ chức hoạt động
+HiCAS hoạt động như một ban CNTT thuê ngoài cho doanh nghiệp.
+Quy trình làm việc: khảo sát thực tế → thiết kế giải pháp phần mềm → triển khai đúng ngân sách và thời hạn.
+Mục tiêu: cung cấp giải pháp phần mềm phù hợp với nhu cầu riêng của từng khách hàng, đảm bảo hiệu quả và tính thực tiễn.
+Lĩnh vực hoạt động
+Thiết kế nhà máy: phần mềm sơ đồ quy trình P&ID, thiết kế đường ống, kết cấu thép, bồn bể áp lực.
+Du lịch & khách sạn: giải pháp quản lý tour và quản trị khách sạn.
+Phân tích dữ liệu & AI: ứng dụng nhận diện khuôn mặt, chấm công, giám sát an toàn lao động, phân tích dữ liệu từ video, bản vẽ CAD.
+Logistics: quản lý kho bãi và vận chuyển (hàng không, cảng biển).
+Xây dựng & cơ khí chế tạo: công cụ hỗ trợ thiết kế CAD/BIM, ứng dụng AI để bóc tách bản vẽ 2D/3D.
+Các sản phẩm/phương án/giải pháp
+(Từ phần 2 đến phần 6 chỉ là các đề mục để sinh viên tham khảo; Tùy thuộc vào đơn vị thực tập sẽ có các đề mục và nội dung khác nhau. Nội dung cụ thể sinh viên phải tìm hiểu và lấy thông tin từ cán bộ hướng dẫn tại đơn vị thực tập để trình bày)
+ViTHEP:
+Giải pháp dựng mô hình thông tin 3D kết cấu thép (cột điện, nhà xưởng...).
+Hỗ trợ quá trình thiết kế và thi công.
+Tích hợp với các công cụ BIM như Revit.
+SmartMTO:
+Bộ sản phẩm áp dụng công nghệ trí tuệ nhân tạo (AI) cho việc phân tích dữ liệu dự án.
+Hỗ trợ nhiều định dạng: scan, PDF, CAD/BIM (DWG, IFC, Revit…).
+AnyOn:
+Giải pháp CDE quản lý hệ thống thông tin công trình BIM.
+Giúp doanh nghiệp quản lý dữ liệu dự án tập trung và hiệu quả.
+TingConnect:
+Giải pháp ứng dụng BIM trong quản lý và vận hành tòa nhà.
+Bao gồm các module: ứng dụng cư dân, phần mềm quản lý vận hành, kênh dịch vụ.
+Công nghệ nền tảng mà HiCAS sử dụng:
+AI: CNN, RNN, LSTM.
+API & SDK: ODA, HOOPS API, Autodesk Forge, Google Map SDK.
+Ngôn ngữ & Framework: .NET, NodeJS, PHP, WPF, AngularJS, ReactJS, React Native.
+Cơ sở dữ liệu & Cloud: MongoDB, MySQL, SQLServer, Oracle, Google Cloud, AWS.
+DevOps & Testing: Docker, Kubernetes, Selenium, Appium, Jira, Postman.
+Mobile: iOS, Android, React Native, Flutter.
+1.7 Tổng kết chương 1
+CHƯƠNG 2: TỔNG QUAN
+2.1. Đặt vấn đề và phân tích thực trạng 
+2.1.1. Bối cảnh và Tính cấp thiết của đề tài
+Trong kỷ nguyên chuyển đổi số và bùng nổ thông tin hiện nay, khối lượng tri thức và tài liệu phát sinh trong các tổ chức, doanh nghiệp cũng như đối với cá nhân học sinh, sinh viên cứu tăng lên theo mũ số. Thông tin không còn nằm ở một dạng duy nhất mà bị phân tán trên nhiều định dạng khác nhau:
+Tài liệu văn bản điện tử: Các tệp PDF báo cáo, hợp đồng, tài liệu kỹ thuật, sách chuyên ngành.
+Tài liệu dạng hình ảnh: Bản chụp tài liệu, sơ đồ, hóa đơn, slide giảng dạy, biên bản họp dạng ảnh scan.
+Tài liệu trực tuyến: Các bài báo khoa học, tin tức, bài viết hướng dẫn trên các trang web.
+Thực tế cho thấy, người dùng mất quá nhiều thời gian và năng lượng cho việc đọc quét, tìm kiếm thủ công và tổng hợp tri thức từ các nguồn tài liệu đồ sộ này để phục vụ công việc và nghiên cứu. Đề tài “Xây dựng nền tảng quét văn bản ” được thực hiện nhằm mang lại giải pháp trực quan, hiện đại, hỗ trợ người dùng giải quyết triệt để bài toán xử lý tri thức đa nguồn.
+2.1.2.Phân tích các bất hợp lý hiện tồn tại
+Qua quan sát thực tế quy trình xử lý và tìm kiếm thông tin hiện tại, nhóm nghiên cứu nhận thấy một số điểm bất hợp lý và hạn chế nghiêm trọng:
+Hạn chế của công cụ tìm kiếm từ khóa truyền thống : Chỉ tìm kiếm được chính xác cụm từ được nhập, không hiểu được ngữ nghĩa và không có khả năng tự tổng hợp thông tin từ nhiều trang/nhiều tài liệu thành một câu trả lời hoàn chỉnh.
+Rào cản về định dạng dữ liệu : Nhiều thông tin quan trọng bị "khóa" trong các tập tin hình ảnh hoặc PDF dạng scan. Công cụ tìm kiếm thông thường không thể truy vấn chữ trong ảnh nếu thiếu quy trình OCR .
+Bất cập khi sử dụng các AI Generative công cộng :
+Rủi ro ảo giác : Các mô hình AI thông thường trả lời dựa trên kiến thức chung được huấn luyện từ trước, dễ dẫn đến việc "bịa đặt" thông tin không có thực.
+Thiếu tri thức nội bộ: AI công cộng không truy cập được vào tài liệu riêng tư hay báo cáo nội bộ của người dùng nếu không được cấp ngữ cảnh.
+Nguy cơ rò rỉ dữ liệu: Tải tài liệu nội bộ lên các nền tảng AI bên thứ ba không có cơ chế quản lý kho dữ liệu riêng gây ra rủi ro bảo mật.
+Thiếu khả năng kiểm chứng nguồn gốc : Các hệ thống chatbot thông thường chỉ đưa ra câu trả lời thuần túy mà không chỉ rõ thông tin đó được lấy từ tài liệu nào, trang bao nhiêu, khiến người dùng khó kiểm chứng tính xác thực.
+Quản lý tri thức bị phân tán: Người dùng thiếu một không gian làm việc tập trung để gom nhóm tài liệu theo từng dự án/chuyên mục cụ thể.
+2.1.3 Lý giải nguyên nhân sâu xa của vấn đề
+Những hạn chế trên xuất phát từ các nguyên nhân kỹ thuật cốt lõi sau:
+Nguyên nhân 1 - Hạn chế thuật toán: Các CSDL quan hệ hoặc bộ tìm kiếm văn bản thông thường xử lý dựa trên so khớp chuỗi ký tự chứ không dựa trên không gian vector ngữ nghĩa.
+Nguyên nhân 2 - Đứt gãy đường ống xử lý dữ liệu: Thiếu một hệ thống hợp nhất có khả năng chuẩn hóa đa dạng đầu vàoPDF, OCR cho Image, Scraper cho Web về một định dạng văn bản thống nhất.
+Nguyên nhân 3 - Bản chất của Mô hình Ngôn ngữ lớn : LLM hoạt động dựa trên xác suất từ tiếp theo. Nếu không áp dụng kỹ thuật RAG để cung cấp đúng ngữ cảnh từ tài liệu thực tế, LLM sẽ tự điền vào khoảng trống tri thức bằng thông tin bịa đặt.
+Nguyên nhân 4 - Phá vỡ liên kết Metadata: Các ứng dụng trích xuất văn bản đơn giản thường bỏ qua thông tin tên file, số trang, vị trí đoạn văn, dẫn đến việc không thể truy ngược lại nguồn gốc ban đầu khi AI trả lời.
+2.2.Mục tiêu, Phương pháp và Phạm vi nghiên cứu
+2.2.1 Mục tiêu nghiên cứu
+Mục tiêu chung: Phát triển một ứng dụng quản lý tri thức và hỗ trợ nghiên cứu thông minh, thân thiện với người dùng, kết hợp sức mạnh của Mô hình ngôn ngữ lớn (LLM) và kỹ thuật RAG để trợ giúp tra cứu và tổng hợp thông tin nhanh chóng, chính xác.
+Mục tiêu cụ thể:
+Frontend: Ứng dụng Next.js 15 và React 19 kết hợp Tailwind CSS xây dựng giao diện hiện đại, hỗ trợ phản hồi dạng chuỗi  và trích dẫn nguồn .
+Backend: Xây dựng hệ thống Backend hiệu năng cao bằng FastAPI cung cấp RESTful API và xử lý bất đồng bộ .
+Cơ sở dữ liệu & Vector Store: Nghiên cứu và thiết kế CSDL PostgreSQL + pgvector nhằm lưu trữ tài liệu quan hệ kết hợp vector embeddings.
+Xử lý tài liệu & AI: Tích hợp LangChain, Google Gemini API (LLM & Embeddings), PyMuPDF, PaddleOCR và BeautifulSoup4 để trích xuất và xử lý tri thức đa nguồn.
+2.2.2 Phương pháp nghiên cứu
+Nghiên cứu lý thuyết: Đọc tài liệu kỹ thuật chính thức của LangChain, FastAPI, Next.js, Google Gemini API và cơ chế RAG.
+Trao đổi thực tế: Tham khảo ý kiến và nhận sự hướng dẫn từ các anh/chị trong doanh nghiệp về quy trình xử lý tài liệu thực tế.
+Thử nghiệm & Đánh giá: Xây dựng hệ thống thử nghiệm, đo đạc độ chính xác của OCR/PDF parsing và đánh giá hiệu năng truy vấn vector trên môi trường giả lập và thực tế.
+2.2.3 Phạm vi nghiên cứu
+Định dạng đầu vào: Tập trung xử lý các tài liệu định dạng PDF, hình ảnh chứa chữ bản scan, ảnh chụp và liên kết bài viết trang web .
+Ngôn ngữ hỗ trợ: Hỗ trợ nhận diện, xử lý văn bản và hỏi đáp bằng cả tiếng Việt và tiếng Anh.
+Bài toán chuyên sâu: Tập trung tối ưu quy trình RAG truy xuất chính xác đoạn văn bản liên quan và tổng hợp câu trả lời kèm trích dẫn chi tiết.
+2.3 Phương tiện và Cơ sở công nghệ sử dụng
+Nhằm giải quyết triệt để các vấn đề thực tế đã phân tích, nhóm nghiên cứu lựa chọn và ứng dụng bộ công nghệ hiện đại, phổ biến trong doanh nghiệp:
+2.3.1 Đặc tả Ngôn ngữ lập trình và Môi trường phát triển
+2.3.1.1. Ngôn ngữ Python
+Phiên bản sử dụng: Python 3.12.x.
+Đặc tả kỹ thuật:
+Cải tiến hiệu năng: Tăng tốc tổng thể từ 10–15% so với Python 3.11 nhờ tối ưu hóa trình thông dịch và tối ưu bộ nhớ.
+Cơ chế Type Hinting: Hỗ trợ cú pháp khai báo Generic ngắn gọn với từ khóa type, cải thiện định kiểu cho các hàm bất đồng bộ.
+Error Messages: Bổ sung gợi ý sửa lỗi chính xác hơn trực tiếp trên màn hình Terminal khi xảy ra ngoại lệ.
+Vai trò trong hệ thống: Ngôn ngữ nền tảng phát triển dịch vụ Backend (backend/app): xây dựng RESTful API, thực hiện pipeline RAG (Text Chunking, Vector Embedding), tính toán độ tương đồng toán học và kết nối CSDL.
+Hình 2.1: Logo ngôn ngữ lập trình Python 3.12
+2.3.1.2. Ngôn ngữ TypeScript / JavaScript & Node.js 
+Phiên bản sử dụng: Node.js 18+ / ES2023 / TypeScript 5.x.
+Đặc tả kỹ thuật:
+Type Safety: Cung cấp cơ chế định kiểu tĩnh giúp phát hiện lỗi sớm ở thời điểm biên dịch, đảm bảo tính nhất quán của cấu trúc dữ liệu truyền giữa Client và Backend.
+Async & Streaming: Node.js 18+ tích hợp sẵn Web APIs Native fetch và ReadableStream, hỗ trợ nhận luồng dữ liệu liên tục từ server mà không làm đóng băng tiến trình giao diện.
+Vai trò trong hệ thống: Xây dựng giao diện người dùng tương tác thời gian thực trên Frontend, nhận và hiển thị phản hồi theo dạng streaming (gõ chữ thời gian thực) từ AI.
+Hình 2.2: Logo JavaScript / TypeScript và Node.js
+2.3.1.3. Trình quản lý gói uv
+Đặc tả kỹ thuật:
+Hiệu năng từ Rust: Viết bằng ngôn ngữ Rust, uv có tốc độ giải quyết phụ thuộc (Dependency Resolution) và cài đặt gói nhanh gấp 10 – 100 lần so with pip và pip-tools.
+Cơ chế đệm: Sử dụng bộ nhớ đệm toàn cục (Global Module Cache) để tránh việc tải trùng lặp các thư viện nặng.
+Vai trò trong hệ thống: Quản lý môi trường ảo (.venv) và khóa phiên bản thư viện (pyproject.toml & uv.lock), giúp quá trình đóng gói và triển khai dự án đồng nhất.
+2.3.2 Đặc tả Frontend Framework & UI Core
+2.3.2.1. Next.js 
+Phiên bản sử dụng: Next.js 15 + React 19.
+Đặc tả kỹ thuật:
+Server Components & React 19: Tối ưu hóa tải giữa Server và Client, giảm dung lượng JavaScript nạp vào trình duyệt.
+HTTP Streaming: Tích hợp ReadableStream và React Suspense, hỗ trợ hiển thị dữ liệu phản hồi dạng streaming từ API.
+Code Splitting: Tự động chia nhỏ mã nguồn theo từng tuyến đường (Route) trên App Router.
+Vai trò trong hệ thống: Xây dựng khung ứng dụng Web đơn trang (SPA) có tốc độ phản hồi mượt mà cho toàn bộ hệ thống Workspace.
+ Hình 2.3: Logo Next.js
+2.3.2.2. Tailwind CSS & Lucide React
+Đặc tả kỹ thuật:
+Tailwind CSS: Utility-first CSS framework với trình biên dịch Just-In-Time giúp loại bỏ mã CSS thừa, tối ưu dung lượng tập tin khi đóng gói.
+Lucide React: Bộ thư viện icon chuẩn hóa dưới dạng các React SVG Component nhẹ và dễ tuỳ biến.
+Vai trò trong hệ thống: Định hình giao diện, tạo các hiệu ứng bo góc, đổ bóng glassmorphism và gắn biểu tượng icon nhận diện từng loại tài liệu PDF, Image, URL.
+Hình 2.4: Logo Tailwind CSS & Lucide React
+2.3.3 Đặc tả Backend Framework
+FastAPI ASGI Web Framework
+Đặc tả kỹ thuật:
+Chuẩn ASGI: Dựa trên Starlette, hỗ trợ xử lý bất đồng bộ cho khả năng chịu tải cao và độ trễ thấp.
+Pydantic v2 Integration: Tự động xác thực kiểu dữ liệu vào/ra, tự động trả về lỗi 422 nếu sai cấu trúc.
+SQLAlchemy 2.0: Tương tác bất đồng bộ với CSDL thông qua Async Session.
+Vai trò trong hệ thống:
+Định tuyến và xử lý các RESTful API.
+Thực hiện luồng trả về câu trả lời dạng StreamingResponse cho khung chat AI .
+Tự động tạo tài liệu OpenAPI / Swagger UI tại giao diện /docs.
+2.3.4 Đặc tả LangChain & Google Gemini API
+2.3.4.1. Google Gemini API
+Mô hình Embedding:
+Đặc tả: Biến đổi các đoạn văn bản  thành vector biểu diễn ngữ nghĩa 768 chiều.
+Ứng dụng: Tạo nhúng vector cho toàn bộ nội dung PDF, ảnh OCR và bài viết URL.
+Mô hình Ngôn ngữ lớn:
+Đặc tả: LLM có cửa sổ ngữ cảnh cực lớn lên tới 1.000.000+ tokens, tốc độ phản hồi mili-giây, tối ưu hóa cho tác vụ RAG.
+Ứng dụng: Tiếp nhận prompt tổng hợp Câu hỏi và Ngữ cảnh từ tài liệu để sinh câu trả lời tự nhiên và trích dẫn chính xác.
+Hình 2.5: Logo Google Gemini AI
+2.3.4.2. Khung điều phối LangChain Framework
+Đặc tả kỹ thuật: Khung làm việc mã nguồn mở kết nối các mô hình AI với các nguồn dữ liệu ngoài.
+Vai trò trong hệ thống:
+Text Chunking: Chia nhỏ văn bản bằng RecursiveCharacterTextSplitter dựa trên độ dài chunk_size và chunk_overlap.
+RAG Workflow: Điều phối chuỗi xử lý (LCEL): Nhận câu hỏi -> Truy vấn vector tương đồng -> Tải dữ liệu vào PromptTemplate -> Gọi Gemini API.
+Hình 2.6: Sơ đồ luồng điều phối quy trình RAG bằng LangChain Framework
+2.3.5 Đặc tả Cơ sở dữ liệu
+2.3.5.1. PostgreSQL kết hợp Extension pgvector
+Đặc tả kỹ thuật:
+PostgreSQL: Hệ quản trị CSDL quan hệ mạnh mẽ, đảm bảo tính toàn vẹn dữ liệu (ACID).
+Extension pgvector: Bổ sung kiểu dữ liệu vector và các giải thuật truy vấn khoảng cách tương đồng như Cosine Distance (<=>) hoặc L2 Distance (<->).
+Vai trò trong hệ thống:
+Dữ liệu quan hệ: Lưu trữ danh sách notebooks, sources, chat_messages.
+Dữ liệu Vector: Lưu trữ các đoạn văn bản kèm vector 768 chiều để thực hiện tìm kiếm ngữ cảnh cho RAG.
+Hình 2.7: Logo PostgreSQL pgvector
+2.3.5.2. Neo4j Graph Database (Đồ thị tri thức)
+Đặc tả kỹ thuật: Hệ quản trị CSDL đồ thị lưu trữ dữ liệu dưới dạng các Nút, Mối quan hệ kèm thuộc tính, truy vấn bằng ngôn ngữ Cypher.
+Vai trò trong hệ thống: Lưu trữ Đồ thị tri thức gồm các Thực thể và Liên kết được trích xuất từ tài liệu, phục vụ hiển thị sơ đồ mạng lưới tri thức tương tác trên giao diện.
+Hình 2.10: Trực quan hóa sơ đồ Đồ thị tri thức trên giao diện Neo4j
+2.3.6 Đặc tả Bộ công cụ trích xuất tri thức đa nguồn
+2.3.6.1. PyMuPDF
+Đặc tả kỹ thuật: Thư viện C/Python hiệu năng cao dựa trên MuPDF rendering engine.
+Vai trò trong hệ thống: Đọc file PDF, trích xuất văn bản từng trang, đếm số trang và xử lý cấu trúc PDF.
+2.3.6.2. PaddleOCR
+Đặc tả kỹ thuật: Bộ công cụ OCR dựa trên Deep Learning nền tảng PaddlePaddle, tích hợp mô hình nhận diện vị trí chữ và trích xuất ký tự .
+Vai trò trong hệ thống: Nhận diện chữ viết trong các file ảnh PNG, JPG được người dùng tải lên, hỗ trợ tiếng Việt và tiếng Anh.
+2.3.6.3. BeautifulSoup4 & Requests
+Đặc tả kỹ thuật:
+Requests: Thư viện khởi tạo kết nối HTTP Client trong Python.
+BeautifulSoup4: Thư viện bóc tách và duyệt cây cấu trúc HTML/XML DOM.
+Vai trò trong hệ thống: Kết nối tới các URL do người dùng cung cấp, loại bỏ các thẻ định dạng dư thừa (<script>, <style>, <header>, <footer>) để thu về văn bản thô phục vụ RAG.
+2.3.7 Đặc tả Hạ tầng và Công cụ bổ trợ
+2.3.7.1. Docker & Docker Compose
+Đặc tả kỹ thuật: Nền tảng ảo hóa mức container đóng gói ứng dụng thành các môi trường thực thi độc lập.
+Vai trò trong hệ thống: Khởi chạy tự động container PostgreSQL trên port 5432 và Neo4j DB trên port 7474/7687 thông qua file docker-compose.yml.
+Hình 2.8: Logo Docker
+2.3.7.2. Postman
+Đặc tả kỹ thuật: Nền tảng thiết kế, kiểm thử và tài liệu hóa API.
+Vai trò trong hệ thống: Kiểm thử độc lập các endpoint upload tài liệu, kiểm tra mã phản hồi HTTP Status Code (200, 400, 422...) và kiểm tra luồng dữ liệu JSON trước khi tích hợp vào Frontend.
+Hình 2.9: Logo Postman
+2.4 Tổng kết chương 2
+CHƯƠNG 3:ĐỀ XUẤT GIẢI PHÁP, PHƯƠNG ÁN VÀ SẢN PHẨM CẢI THIỆN HIỆN TRẠNG
+3.1. Đề xuất nhóm giải pháp kỹ thuật nâng cao hiệu năng và tối ưu hóa hệ thống
+3.1.1. Tối ưu hóa đường ống xử lý dữ liệu và OCR bằng hàng đợi tác vụ bất đồng bộ 
+Phân tích hiện trạng trong dự án: Hiện tại, quy trình trích xuất văn bản từ PDF và bóc tách chữ từ tệp hình ảnh được thực hiện trực tiếp thông qua BackgroundTasks của ứng dụng FastAPI. Khi người dùng tải lên tài liệu PDF dung lượng lớn hoặc nhiều tệp ảnh scan cùng lúc, tiến trình OCR tiêu tốn tài nguyên CPU rất lớn, dễ làm quá tải server Web FastAPI, dẫn đến độ trễ cao và người dùng trên giao diện Next.js chỉ thấy trạng thái tĩnh processing mà không biết rõ tiến độ.
+Giải pháp đề xuất cụ thể:
+Tách biệt hạ tầng Worker với Web Server: Triển khai mô hình hàng đợi tác vụ Celery kết hợp Redis broker. Toàn bộ các tác vụ xử lý nặng như nhận diện OCR, cắt nhỏ văn bản, tính toán Vector Embeddings và tạo Node trên Neo4j sẽ được chuyển cho các Celery Worker độc lập đảm nhận.
+Theo dõi tiến độ theo thời gian thực: Thiết lập kênh giao tiếp hai chiều WebSocket giữa Backend và Frontend. Khi xử lý tài liệu, Celery Worker sẽ liên tục gửi thông tin tiến độ theo phần trăm lên giao diện Next.js, giúp người dùng theo dõi trạng thái xử lý trực quan và chính xác.
+3.1.2. Nâng cấp bộ cào dữ liệu web động bằng Headless Browser 
+Phân tích hiện trạng trong dự án: Ứng dụng hiện sử dụng thư viện httpx phối hợp với BeautifulSoup4 để trích xuất nội dung từ các liên kết trang web. Phương pháp này chỉ phù hợp với các trang HTML tĩnh. Đối với các trang web modern dựa trên kiến trúc Single Page Application. SPA như React, Vue, Angular hoặc các trang web có cơ chế chặn crawl dữ liệu, BeautifulSoup4 trả về nội dung rỗng hoặc các mã script không chứa thông tin tri thức.
+Giải pháp đề xuất cụ thể:
+Thay thế bộ thu thập dữ liệu bằng Playwright Engine.
+Cho phép trình duyệt ẩn thực thi toàn bộ đoạn mã JavaScript của trang web trước khi trích xuất.
+Tích hợp thư viện Readability.js để tự động loại bỏ các thành phần thừa và chỉ giữ lại phần bài viết chính nhằm nâng cao chất lượng dữ liệu đầu vào cho hệ thống RAG.
+3.2. Đề xuất nhóm giải pháp Nâng cao chất lượng RAG và Đồ thị Tri thức 
+3.2.1. Triển khai cơ chế Tìm kiếm Lai đa tầng 
+Phân tích hiện trạng trong dự án: Trong hàm truy vấn dữ liệu hiện tại, hệ thống thực hiện tìm kiếm ngữ nghĩa dựa trên Similarity Vector từ chunk_vector_index của Neo4j/pgvector. Mặc dù tìm kiếm vector rất tốt trong việc hiểu ngữ nghĩa chung, nhưng nó thường bỏ sót hoặc trả về kết quả không chính xác khi người dùng đặt câu hỏi chứa các từ khóa chính xác như mã số hợp đồng, mã sản phẩm, thuật ngữ kỹ thuật, tên riêng chuyên ngành, ngày tháng.
+Giải pháp đề xuất cụ thể:
+Xây dựng chỉ mục Tìm kiếm Văn bản toàn văn: Thiết lập chỉ mục BM25 trên PostgreSQL và Neo4j song song với Vector Index.
+Áp dụng Thuật toán Kết hợp Thứ hạng: Khi người dùng đặt câu hỏi, hệ thống sẽ thực hiện đồng thời 2 luồng truy vấn, sau đó áp dụng công thức RRF để tính toán lại điểm số Phương pháp này giúp đảm bảo kết quả truy xuất đạt sự cân bằng hoàn hảo giữa độ hiểu ngữ nghĩa và độ chính xác từ khóa.
+3.2.2. Chuẩn hóa và Khử trùng lặp Thực thể trên Đồ thị Tri thức 
+Phân tích hiện trạng trong dự án: Khi Gemini API trích xuất các Thực thể từ văn bản để lưu vào Đồ thị Tri thức Neo4j, các từ ngữ đồng nghĩa hoặc viết tắt sẽ bị tạo thành các Node hoàn toàn riêng biệt. Điều này gây ra hiện tượng phân mảnh Đồ thị Tri thức, làm giảm hiệu quả truy vấn mối quan hệ giữa các khái niệm.
+Giải pháp đề xuất cụ thể:
+Xây dựng mô-đun Entity Resolution để tối ưu Node đồ thị trước khi ghi vào Neo4j:
+So sánh khoảng cách vector ngữ nghĩa giữa tên thực thể mới và các thực thể đã tồn tại trong database.
+Nếu độ tương đồng vượt ngưỡng score >= 0.85, ứng dụng sẽ gọi Gemini API xác nhận hai thực thể có đồng nhất hay không.
+Tiến hành hợp nhất hai Node thành một Node chuẩn hóa duy nhất và bổ sung trường thuộc tính aliases chứa danh sách các từ ngữ đồng nghĩa.
+3.2.3. Trích dẫn nguồn chi tiết cấp độ trang và đánh dấu đoạn văn bản 
+Phân tích hiện trạng trong dự án: Hiện tại, câu trả lời do AI sinh ra chỉ trích dẫn tên tập tin nguồn. Điều này khiến người dùng gặp khó khăn trong việc đối soát, vì họ vẫn phải mở thủ công tệp PDF và tìm kiếm từng trang để kiểm tra tính xác thực.
+Giải pháp đề xuất cụ thể:
+Lưu trữ Metadata vị trí: Trong quá trình chia nhỏ văn bản từ PyMuPDF, hệ thống sẽ ghi nhận chính xác page_number số trang và tọa độ khung chữ bounding box của từng đoạn văn bản vào cơ sở dữ liệu.
+Trình xem tài liệu tương tác trên Frontend: Trên giao diện Next.js, tích hợp thư viện React-PDF-Viewer / PDF.js. Khi người dùng click vào nhãn trích dẫn trong câu trả lời của AI, ứng dụng sẽ ngay lập tức mở giao diện xem PDF, cuộn trực tiếp tới trang chứa thông tin và tô sáng chính xác đoạn văn bản được sử dụng làm bối cảnh.
+3.3. Đề xuất mô hình sản phẩm và tính năng mở rộng đột phá
+3.3.1. Sản phẩm "Xây dưng nền tảng quét văn bản"
+Mô tả sản phẩm đề xuất: Phát triển tính năng chuyển đổi toàn bộ tri thức trong một Sổ tay thành một bản phát thanh Audio Podcast dạng cuộc trò chuyện sôi nổi giữa 2 người dẫn chương trình AI bằng tiếng Việt.
+Quy trình triển khai kỹ thuật cụ thể:
+Tạo kịch bản hội thoại : Sử dụng Gemini 2.5 Flash để đọc tổng hợp tất cả các nguồn tài liệu trong Notebook, tự động trích xuất các ý chính và viết kịch bản hội thoại tự nhiên bao gồm các câu hỏi, phản biện, ví dụ minh họa và lời kết.
+Tổng hợp Giọng nói Đa nhân vật: Kết hợp các công nghệ Dịch vụ Chuyển đổi Văn bản thành Giọng nói chất lượng cao hỗ trợ tiếng Việt như FPT.AI Text-to-Speech, Viettel AI hoặc Edge-TTS với giọng đọc nam/nữ truyền cảm.
+Giao diện Trình phát Audio: Tích hợp trình phát nhạc trực quan trên ứng dụng Next.js, cho phép người dùng nghe trực tuyến, điều chỉnh tốc độ đọc 1.25x, 1.5x và tải xuống file .mp3 để học tập và nghiên cứu mọi lúc mọi nơi.
+3.3.2. Trình tương tác và truy vấn Đồ thị Tri thức trực quan
+Mô tả sản phẩm đề xuất: Nâng cấp component KnowledgeGraph.jsx trên Frontend thành một không gian làm việc trực quan hóa tri thức mạnh mẽ.
+Các tính năng cụ thể:
+Trực quan hóa Đồ thị mạng: Sử dụng thư viện Cytoscape.js hoặc React-Force-Graph 2D/3D để biểu diễn trực quan các thực thể và mối quan hệ lưu trữ trong Neo4j.
+Bộ lọc và Tìm kiếm Node: Cho phép người dùng lọc mạng lưới tri thức theo phân loại thực thể Con người, Tổ chức, Khái niệm, Ngày tháng, Địa điểm.
+Truy vết tri thức : Khi người dùng click vào một Node hoặc Edge bất kỳ trên đồ thị, giao diện sẽ mở bảng phụ hiển thị danh sách tất cả các đoạn văn bản gốc liên quan.
+Tìm đường đi ngắn nhất : Cho phép chọn 2 thực thể bất kỳ và tự động làm nổi bật chuỗi liên kết/quan hệ giữa chúng trong toàn bộ cơ sở tri thức.
+3.4. Đề xuất phương án Kiến trúc Bảo mật và Phân quyền Đa người dùng
+3.4.1. Kiến trúc phân quyền và quản lý tài khoản người dùng 
+Phân tích hiện trạng trong dự án: Cấu trúc cơ sở dữ liệu hiện tại lưu trữ tập trung các Notebooks mà chưa hỗ trợ phân tách theo mã người dùng .
+Giải pháp đề xuất cụ thể:
+Hệ thống Quản lý Tài khoản : Bổ sung bảng users trong PostgreSQL, hỗ trợ đăng ký, đăng nhập bảo mật qua chuẩn JWT hoặc OAuth2.
+Bảo mật dữ liệu mức dòng :
+Thêm khoá ngoại user_id vào bảng notebooks.
+Áp dụng chính sách RLS trên PostgreSQL để đảm bảo người dùng chỉ có quyền truy xuất các Notebook do mình sở hữu hoặc được chia sẻ.
+Cập nhật các câu truy vấn Cypher trong Neo4j để luôn lọc theo user_id, ngăn chặn triệt để rủi ro rò rỉ dữ liệu giữa các tài khoản.
+3.4.2. Cơ chế bảo vệ quyền riêng tư dữ liệu và mã hóa lưu trữ
+Giải pháp đề xuất cụ thể:
+Mã hóa đường truyền: Sử dụng chứng chỉ SSL/TLS (HTTPS) mã hóa toàn bộ dữ liệu trao đổi giữa ứng dụng Frontend Next.js và Backend FastAPI.
+Mã hóa lưu trữ: Tất cả các tệp tài liệu PDF và hình ảnh được tải lên thư mục ./uploads sẽ được mã hóa bằng thuật toán mã hóa đối xứng AES-256.
+Cơ chế Xóa sạch Dữ liệu: Khi người dùng thực hiện xóa một Notebook hoặc một tệp nguồn, hệ thống sẽ thực hiện quy trình xóa triệt để: xóa tệp vật lý trên đĩa, xóa các bản ghi trong PostgreSQL, và tự động thu gom/xóa sạch các Vector Embeddings cùng các Node/Relationship liên quan trên Neo4j.
+3.5. Tổng kết chương 3
+CHƯƠNG 4: PHÂN TÍCH THIẾT KẾ HỆ THỐNG HỆ THỐNG
+4.1 Công nghệ chính của đề tài
+Hệ thống được xây dựng theo kiến trúc Microservices / Decoupled Client-Server phân tách rõ ràng giữa Frontend và Backend, hỗ trợ xử lý dữ liệu đa phương tiện (PDF, OCR Ảnh, Web Scraping) kết hợp với công nghệ RAG và Đồ thị tri thức.
+Backend
+Ngôn ngữ & Quản lý môi trường: Python 3.12, quản lý gói bằng uv.
+Web Framework: FastAPI – Xử lý các RESTful API bất đồng bộ (async/await), hỗ trợ Streaming HTTP responses cho Chat AI.
+Khung làm việc AI & RAG: LangChain + Google Gemini API (sử dụng Gemini Flash/Pro cho LLM và text-embedding-004 cho Vector Embeddings).
+Xử lý tài liệu & OCR:
+PyMuPDF (fitz): Trích xuất văn bản và đếm trang từ các file PDF.
+PaddleOCR: Nhận diện chữ viết từ hình ảnh (Image OCR) hỗ trợ đa ngôn ngữ.
+BeautifulSoup4 & Requests: Cào nội dung và lọc sạch dữ liệu từ các đường dẫn URL.
+Frontend
+Framework: Next.js 15 (React 19, App Router) – Đảm bảo tối ưu hóa giao diện và trải nghiệm người dùng mượt mà.
+Styling: Tailwind CSS + Custom CSS Modules cho hiệu ứng trực quan hiện đại.
+Icons & Visualization: Lucide React (Biểu tượng UI) + Vis-network / Canvas (Trực quan hóa đồ thị tri thức).
+Cơ sở dữ liệu & Hạ tầng (Database & Infrastructure)
+PostgreSQL + extension pgvector: Lưu trữ thông tin hệ thống (Users, Notebooks, Sources, Chat History) và lưu trữ các vector embeddings 768 chiều phục vụ tìm kiếm tương đồng (Similarity Search).
+Neo4j Graph Database: Lưu trữ và quản lý mạng lưới các thực thể (Entities) và mối quan hệ (Relationships) tạo thành Đồ thị tri thức (Knowledge Graph).
+Docker & Docker Compose: Đóng gói môi trường cơ sở dữ liệu PostgreSQL (pgvector) và Neo4j (docker-compose.yml
+4.1.1 Yêu cầu chức năng
+4.1.1.1. Public Web (Người dùng chưa đăng nhập)
+Khu vực dành cho người dùng chưa vào workspace làm việc:
+Trang giới thiệu :
+Giới thiệu tổng quan về DocuGraph RAG Khả năng đọc PDF, OCR Ảnh, Cào URL, Chat RAG và vẽ Đồ thị tri thức.
+Nút đăng nhập/bắt đầu nhanh.
+Xác thực người dùng :
+Đăng nhập Google (OAuth2): Xác thực nhanh chóng thông qua tài khoản Google.
+Đăng ký / Đăng nhập Email & Mật khẩu: Cho phép tạo tài khoản thủ công với mật khẩu đã mã hóa (Bcrypt).
+Chuyển hướng tự động vào màn hình Private Workspace sau khi xác thực thành công.
+4.1.1.2. Người dùng đã đăng nhập
+1. Admin (Quản trị hệ thống)
+Quản lý người dùng:
+Xem danh sách tất cả người dùng trong hệ thống.
+Tìm kiếm người dùng theo tên, email hoặc vai trò (Admin, User).
+Khóa / Mở khóa tài khoản người dùng.
+Phân quyền người dùng.
+Theo dõi & Giám sát hệ thống:
+Xem thống kê tổng quan: Tổng số Notebooks, tổng số nguồn tài liệu đã tải lên PDF, Image, URL, dung lượng lưu trữ vector embeddings.
+Theo dõi số lượng lượt gọi API Google Gemini và trạng thái kết nối tới PostgreSQL/Neo4j.
+Cấu hình hệ thống:
+Cấu hình khóa API Google Gemini.
+Cấu hình tham số RAG.
+Cấu hình thông số kết nối cơ sở dữ liệu Neo4j & Postgres.
+2. User
+Khi đăng nhập thành công, người dùng làm việc trong AI Notebook Workspace:
+Bảng điều khiển Sổ tay:
+Xem danh sách các Sổ tay cá nhân đã tạo.
+Tạo Sổ tay mới nhập Tiêu đề và Mô tả.
+Chỉnh sửa thông tin hoặc xóa Sổ tay không còn sử dụng.
+Quản lý Nguồn tài liệu :
+Upload PDF: Tải lên tệp PDF, tự động tách văn bản và chia trang.
+Upload Hình ảnh (OCR): Tải lên file ảnh (PNG, JPG, ...), hệ thống chạy PaddleOCR để trích xuất văn bản từ hình ảnh.
+Nhập URL Web: Nhập liên kết trang web, hệ thống tự động cào nội dung văn bản chính.
+Trạng thái xử lý : Hiển thị trạng thái theo thời gian thực: processing (Đang xử lý/Trích xuất vector), ready (Đã sẵn sàng), error (Lỗi xử lý).
+Quản lý & Bật/Tắt nguồn: Xem danh sách nguồn trong Notebook, xem trước nội dung trích xuất, xóa nguồn hoặc chọn/bỏ chọn nguồn làm ngữ cảnh cho AI.
+Hỏi đáp AI theo ngữ cảnh tài liệu:
+Đặt câu hỏi cho AI dựa trên tài liệu có trong Sổ tay hiện tại.
+Phản hồi từ AI được hiển thị dạng Streaming xuất hiện từng từ theo thời gian thực.
+Trích dẫn nguồn: Mọi câu trả lời của AI đều gắn kèm các thẻ trích dẫn chính xác hiển thị rõ tên tài liệu, trang PDF hoặc liên kết nguồn được dùng để tổng hợp câu trả lời.
+Lịch sử trò chuyện: Lưu vết toàn bộ cuộc hội thoại trong từng Sổ tay.
+Khám phá Đồ thị Tri thức :
+Tự động trích xuất các thực thể và mối quan hệ giữa chúng từ các tài liệu được nạp vào.
+Hiển thị giao diện đồ thị tương tác dạng nút và liên kết.
+Người dùng có thể zoom, kéo thả nút, nhấp vào thực thể để xem các đoạn tài liệu liên quan đến khái niệm đó.
+3. Tính năng nâng cao
+Xử lý tài liệu bất đồng bộ: Đảm bảo giao diện người dùng không bị treo khi nạp các file PDF lớn hoặc chạy OCR hình ảnh phức tạp.
+Thông báo thời gian thực trên giao diện: Thông báo tức thì khi quá trình nạp tài liệu hoàn tất hoặc khi gặp lỗi.
+Trình xem tài liệu nguồn trực quan: Cho phép mở xem lại nội dung chi tiết của từng nguồn ngay bên cạnh cửa sổ Chat AI.
+4.1.2 Yêu cầu phi chức năng
+Giao diện người dùng (UI/UX):
+Bố cục 3 cột hiện đại, khoa học: Cột trái là nguồn tài liệu – Cột giữa là khung Chat AI – Cột phải là đồ thị tri thức và trình xem chi tiết.
+Thiết kế mượt mà, tối giản, trực quan, tuân thủ các nguyên tắc thiết kế ứng dụng web hiện đại.
+Độ chính xác:
+Thuật toán PaddleOCR đạt độ chính xác cao đối với tài liệu tiếng Việt và tiếng Anh.
+Không sinh câu trả lời bịa đặt bảo đảm nguyên tắc RAG: Chỉ trả lời dựa trên trích dẫn tài liệu trong Notebook.
+Phần cứng & Môi trường: Máy tính cá nhân kết nối Internet; máy chủ chạy Docker hỗ trợ PostgreSQL/pgvector và Neo4j DB.
+4.2 Biểu Đồ Ca Sử Dụng (UseCase)
+4.2.1 Xác định các thành phần (Actor)
+Admin (Quản trị viên): Quản lý toàn bộ hệ thống người dùng, cấu hình API, thông số RAG, giám sát tài nguyên lưu trữ và vector DB.
+User: Người dùng trực tiếp tạo Notebook, upload tài liệu PDF, Ảnh OCR, URL, tương tác Chat RAG AI, xem trích dẫn và tương tác với Đồ thị tri thức.
+4.2.2 Các UseCase chính
+1. Admin:
+Quản lý người dùng xem danh sách, tìm kiếm, phân quyền, khóa/mở khóa tài khoản.
+Theo dõi hệ thống xem dung lượng lưu trữ vector DB, số lượng Sổ tay, lượt gọi API Gemini.
+Cấu hình hệ thống cấu hình API Key, thông số RAG Chunking, thông số kết nối DB.
+2. User / Member:
+Quản lý sổ tay: tạo, xem, sửa, xóa Notebook.
+Quản lý Nguồn tài liệu: Upload PDF, Upload Ảnh OCR, Thêm URL Web, Xem nội dung trích xuất, Xóa nguồn.
+Tương tác Chat AI và Trích dẫn: Gửi câu hỏi, chọn nguồn dữ liệu, nhận phản hồi streaming, xem trích dẫn nguồn.
+Tương tác Đồ thị tri thức: Xem đồ thị tri thức Neo4j, lọc thực thể, xem chi tiết mối liên hệ giữa các khái niệm.
+4.2.3 Vẽ Mô Tả UseCase
+4.2.3.1 Tổng quan Sơ đồ Use-Case tổng quát
+User: Đại diện cho người dùng sử dụng workspace để nạp tài liệu và làm việc với AI.
+Admin: Quản trị toàn bộ hạ tầng và tài khoản hệ thống.
+Hình 4.1: UseCase tổng quát
+4.2.3.1 Use-Case đăng nhập
+Hình 4.2: UseCase Quản lý đăng nhập
+4.2.3.1 Use-Case đăng kí
+Hình 4.3: UseCase Quản lý đăng ký
+4.2.3.2 Use Case: Quản lý Nguồn tài liệu 
+Hình 4.4: UseCase Quản lý Nguồn tài liệu
+Tác nhân: User .
+Mô tả: Cho phép người dùng tải lên tài liệu PDF, hình ảnh chạy OCR hoặc đường dẫn URL. Hệ thống sẽ trích xuất văn bản, chia đoạn , tạo Embeddings bằng Gemini API và lưu vào pgvector cùng Neo4j.
+Điều kiện tiền đề: Người dùng đã đăng nhập và đang mở một Sổ tay.
+Kết quả: Tài liệu chuyển sang trạng thái ready, hiển thị văn bản xem trước và sẵn sàng phục vụ Chat AI & Knowledge Graph.
+4.2.3.3 Use Case: Hỏi đáp AI 
+Hình 4.5: UseCase Hỏi đáp
+Tác nhân: User
+Mô tả: Người dùng nhập câu hỏi. Hệ thống tìm kiếm các đoạn văn bản tương đồng nhất trong pgvector, gửi ngữ cảnh kèm câu hỏi tới Gemini LLM, trả về kết quả dạng streaming kèm danh sách nguồn trích dẫn.
+Kết quả: Câu trả lời được hiển thị từng chữ kèm các link/thẻ trích dẫn chính xác nguồn dữ liệu.
+4.2.3.4 Use Case: Khám phá Đồ thị Tri thức 
+Hình 4.6: UseCase Đồ thị tri thức
+Tác nhân: User.
+Mô tả: Hệ thống truy vấn các thực thể và mối quan hệ lưu trữ trên Neo4j thuộc Sổ tay hiện tại, dựng đồ thị các nút liên kết tương tác.
+Kết quả: Người dùng quan sát được toàn cảnh tri thức của các tài liệu dưới dạng biểu đồ mạng lưới.
+4.3 Mô tả biểu đồ trình tự 
+4.3.1 Biểu đồ trình tự đăng nhập
+Hình 4.7: Biểu đồ trình tự đăng nhập
+Luồng tương tác trình tự cho chức năng Đăng nhập diễn ra qua các bước:
+Người dùng nhập Email và Mật khẩu trên giao diện Đăng nhập của Frontend và nhấn nút "Đăng nhập".
+Frontend gửi một HTTP POST Request chứa thông tin đăng nhập tới Backend API.
+Backend API tiếp nhận yêu cầu và truy vấn tìm kiếm người dùng trong Database theo địa chỉ Email.
+Database trả về bản ghi thông tin người dùng cùng chuỗi mật khẩu đã mã hóa .
+Backend API thực hiện đối soát mật khẩu nhập vào với chuỗi hash trong CSDL bằng thuật toán Bcrypt.
+Nếu mật khẩu chính xác, Backend API khởi tạo một chuỗi mã xác thực JWT Access Token và trả về Response cho Frontend.
+Frontend lưu trữ JWT Token vào bộ nhớ trình duyệt.
+Frontend chuyển hướng người dùng vào giao diện màn hình chính.
+4.3.2 Biểu đồ trình tự đăng ký
+Hình 4.8: Biểu đồ trình tự đăng ký
+Luồng tương tác trình tự cho chức năng Đăng ký tài khoản mới:
+Người dùng điền đầy đủ Email, Mật khẩu và Họ tên vào form đăng ký trên Frontend và nhấn "Đăng ký".
+Frontend gửi yêu cầu đăng ký tài khoản mới qua phương thức POST tới Backend API (/api/auth/register).
+Backend API thực hiện truy vấn xuống Database để kiểm tra địa chỉ Email đã từng tồn tại trong hệ thống hay chưa.
+Database trả về kết quả xác nhận Email chưa bị trùng lặp.
+Backend API thực hiện mã hóa mật khẩu của người dùng bằng thuật toán băm bảo mật (Bcrypt).
+Backend API gửi câu lệnh lưu thông tin tài khoản người dùng mới vào bảng users trong Database.
+Database phản hồi lưu dữ liệu thành công.
+Backend API tạo JWT Access Token và phản hồi về cho Frontend.
+Frontend hiển thị thông báo thành công và tự động đăng nhập người dùng vào hệ thống.
+4.3.3 Biểu đồ trình tự quản lý nguồn tài liệu 
+Hình 4.9: Biểu đồ trình tự Quản lý Nguồn tài liệu
+Luồng tương tác trình tự cho quá trình nạp và xử lý tài liệu đa nguồn:
+Người dùng chọn và tải lên tài liệu File PDF, Hình ảnh hoặc nhập đường dẫn URL bài viết trang Web.
+Frontend gửi dữ liệu nguồn lên Backend API.
+Backend API tạo bản ghi nguồn tài liệu với trạng thái ban đầu là PROCESSING và phản hồi tức thì để giao diện không bị đóng đóng băng.
+Backend API khởi chạy công việc ngầm để trích xuất văn bản thô:
+Sử dụng PyMuPDF đối với file PDF.
+Sử dụng PaddleOCR đối với file hình ảnh.
+Sử dụng BeautifulSoup đối với link Web URL.
+Backend API thực hiện chia nhỏ nội dung văn bản thành các đoạn ngắn.
+Backend API gửi các khối văn bản tới Google Gemini API để tạo chuỗi Vector Embeddings.
+Google Gemini API trả về danh sách các chuỗi Vector Embeddings tương ứng.
+Backend API lưu các Vector Embeddings cùng siêu dữ liệu vào cơ sở dữ liệu PostgreSQL.
+Backend API trích xuất các Thực thể và Mối quan hệ lưu vào cơ sở dữ liệu đồ thị Neo4j DB.
+Backend API cập nhật trạng thái nguồn tài liệu thành READY.
+Frontend nhận thông báo hoàn tất, hiển thị văn bản xem trước và chuyển tài liệu sang trạng thái sẵn sàng phục vụ tra cứu.
+4.3.4 Biểu đồ trình tự hỏi đáp AI
+Hình 4.10: Biểu đồ Trình tự Hỏi đáp AI
+Luồng tương tác trình tự cho quá trình trò chuyện AI RAG theo thời gian thực:
+Người dùng nhập câu hỏi vào ô chat của Notebook và nhấn nút "Gửi".
+Frontend gửi yêu cầu POST câu hỏi tới Backend API khởi tạo kết nối luồng.
+Backend API nhúng câu hỏi và gửi câu lệnh tìm kiếm tương đồng  tới pgvector DB.
+pgvector DB truy vấn và trả về các đoạn văn bản có độ liên quan cao nhất thuộc Notebook hiện tại.
+Backend API tổng hợp các đoạn văn bản vừa tìm được cùng với 10 câu thoại lịch sử gần nhất ghép thành một ngữ cảnh hoàn chỉnh và gửi tới Google Gemini LLM.
+Gemini LLM tạo câu trả lời và trả về dữ liệu liên tục theo dạng luồng .
+Backend API đẩy từng đoạn văn bản thu được về Frontend thông qua chuẩn kết nối Server-Sent Events.
+Frontend nhận dữ liệu luồng và cập nhật hiển thị câu trả lời từng chữ theo thời gian thực trên màn hình.
+Backend API gửi tiếp gói dữ liệu chứa danh sách các nguồn tài liệu tham chiếu.
+Frontend hiển thị danh sách thẻ/link trích dẫn nguồn ngay dưới câu trả lời của AI để người dùng kiểm tra đối soát.
+4.3.5 Biểu đồ trình tự khám phá đồ thị tri thức
+Hình 4.11: Biểu đồ Trình tự Khám phá Đồ thị Tri thức
+Luồng tương tác trình tự hiển thị đồ thị mạng lưới tri thức:
+Người dùng chuyển sang tab xem đồ thị tri thức trên giao diện Notebook.
+Frontend gửi yêu cầu GET tới Backend API .
+Backend API thực thi câu lệnh truy vấn Cypher tới cơ sở dữ liệu đồ thị Neo4j DB.
+Neo4j DB tìm kiếm và trả về danh sách các Nút và Cạnh thuộc Notebook.
+Backend API đóng gói dữ liệu đồ thị dưới dạng JSON chuẩn và phản hồi về cho Frontend.
+Frontend nhận dữ liệu và thực hiện dựng đồ thị trên khung vẽ tương tác.
+Frontend hiển thị mạng lưới tri thức trực quan, cho phép người dùng thao tác kéo thả và khám phá.
+4.4 Mô tả biểu đồ hoạt động 
+4.4.1 Biểu đồ hoạt động đăng nhập
+Hình 4.12: Biểu đồ Hoạt động Đăng nhập
+Tiến trình hoạt động của chức năng Đăng nhập diễn ra theo các bước:
+Bắt đầu: Người dùng truy cập trang Đăng nhập và lựa chọn phương thức xác thực.
+Rẽ nhánh Phương thức:
+Nếu chọn Đăng nhập Google: Hệ thống mở cửa sổ xác thực tài khoản Google, lấy Google ID Token và tiến hành kiểm tra mã token với Google Server.
+Nếu chọn Đăng nhập Email/Mật khẩu: Người dùng nhập Email cùng Mật khẩu cá nhân, hệ thống thực hiện kiểm tra sự tồn tại của Email và đối soát mật khẩu băm trong CSDL.
+Kiểm tra kết quả xác thực:
+Nếu thất bại: Hệ thống hiển thị thông báo lỗi chi tiết như sai tài khoản, sai mật khẩu hoặc token không hợp lệ và kết thúc tiến trình.
+Nếu thành công: Hệ thống tạo chuỗi JWT Access Token, lưu trữ token vào bộ nhớ trình duyệt và chuyển hướng người dùng đến giao diện màn hình chính.
+Kết thúc: Hoàn thành phiên đăng nhập.
+4.4.2 Biểu đồ Hoạt động: Đăng ký
+Hình 4.13: Biểu đồ Hoạt động: Đăng ký
+Tiến trình hoạt động của chức năng Đăng ký tài khoản mới:
+Bắt đầu: Người dùng mở trang Đăng ký tài khoản.
+Nhập liệu: Người dùng nhập Email, Mật khẩu, Nhập lại mật khẩu và Họ tên cá nhân.
+Gửi dữ liệu: Người dùng nhấn nút "Đăng ký", hệ thống gửi yêu cầu kiểm tra lên máy chủ Backend.
+Kiểm tra trùng lặp Email:
+Nếu Email đã tồn tại: Hệ thống dừng tiến trình và hiển thị thông báo lỗi "Email này đã được sử dụng".
+Nếu Email hợp lệ: Hệ thống tiến hành mã hóa mật khẩu bằng thuật toán Bcrypt.
+Lưu CSDL & Khởi tạo: Hệ thống lưu bản ghi tài khoản mới vào PostgreSQL, tự động tạo JWT Access Token xác thực.
+Kết thúc: Hệ thống tự động chuyển người dùng sang trạng thái đã đăng nhập và chuyển về trang chính.
+4.4.3 Biểu đồ hoạt động quản lý nguồn tài liệu
+Hình 4.14: Biểu đồ Hoạt động Quản lý Nguồn tài liệu
+Tiến trình hoạt động của Pipeline nạp và xử lý tài liệu tự động:
+Bắt đầu: Người dùng chọn phương thức nạp nguồn tài liệu vào Notebook hiện tại.
+Rẽ nhánh Loại tài liệu:
+Nếu là PDF: Tải file PDF lên ➔ Hệ thống dùng thư viện PyMuPDF để bóc tách văn bản.
+Nếu là Hình ảnh: Tải file ảnh chứa chữ ➔ Hệ thống dùng công cụ PaddleOCR để nhận diện và đọc chữ trên ảnh.
+Nếu là Link Web: Nhập đường dẫn URL ➔ Hệ thống dùng BeautifulSoup để cào nội dung HTML của trang web.
+Chuyển trạng thái: Hệ thống tạo bản ghi và cập nhật trạng thái nguồn sang PROCESSING.
+Cắt đoạn văn bản: Hệ thống chia nhỏ nội dung văn bản thành các đoạn ngắn phù hợp cho mô hình AI.
+Tạo Embeddings: Gửi các đoạn văn bản sang Google Gemini API để biến đổi thành các chuỗi Vector Embedding.
+Lưu trữ CSDL Kép:
+Lưu trữ các chuỗi Vector Embeddings vào bảng lưu trữ vector pgvector trong PostgreSQL.
+Trích xuất các thực thể, thuộc tính và mối quan hệ để xây dựng sơ đồ tri thức lưu vào Neo4j.
+Cập nhật & Hiển thị: Cập nhật trạng thái nguồn tài liệu thành READY và hiển thị văn bản xem trước lên giao diện.
+Kết thúc: Tài liệu sẵn sàng phục vụ cho việc hỏi đáp AI và vẽ đồ thị.
+4.4.4 Biểu đồ hoạt động hỏi đáp AI 
+Hình 4.15: Biểu đồ Hoạt động Hỏi đáp AI 
+Tiến trình hoạt động của hệ thống hỏi đáp AI RAG theo thời gian thực:
+Bắt đầu: Người dùng nhập câu hỏi vào khung trò chuyện của Notebook.
+Tìm kiếm Ngữ cảnh : Hệ thống nhúng câu hỏi của người dùng và truy vấn trong CSDL pgvector để trích xuất ra danh sách các khối văn bản có độ tương đồng cao nhất.
+Ghép Prompt: Hệ thống lấy các khối văn bản liên quan tìm được kết hợp với lịch sử trò chuyện gần nhất và câu hỏi hiện tại để tạo thành một ngữ cảnh Prompt hoàn chỉnh.
+Gọi Gemini LLM & Stream Phản hồi:
+Gửi Prompt tới mô hình Google Gemini LLM.
+Nhận dữ liệu phản hồi được tạo ra theo thời gian thực và đẩy về giao diện người dùng thông qua luồng Server-Sent Events.
+Hiển thị & Trích dẫn:
+Giao diện hiển thị câu trả lời từng chữ theo hiệu ứng gõ phím.
+Đính kèm thông tin trích dẫn nguồn tên file, số trang, vị trí đoạn văn ngay bên dưới câu trả lời.
+Lưu Lịch sử: Ghi nhận câu hỏi và câu trả lời vào CSDL lịch sử trò chuyện.
+Kết thúc: Hoàn thành một lượt hỏi đáp.
+4.4.5 Biểu đồ hoạt động khám phá đồ thị tri thức
+Hình 4.16: Biểu đồ Hoạt động: Khám phá Đồ thị Tri thức 
+Tiến trình hoạt động của việc hiển thị và khám phá đồ thị tri thức:
+Bắt đầu: Người dùng chọn tab "Knowledge Graph" trên giao diện Notebook.
+Truy vấn CSDL Đồ thị: Hệ thống gửi câu lệnh Cypher tới Neo4j DB để truy vấn các nút Thực thể và các cạnh Mối quan hệ  được liên kết với Notebook này.
+Kiểm tra Dữ liệu:
+Nếu chưa có dữ liệu graph: Hệ thống hiển thị thông báo "Chưa có dữ liệu đồ thị tri thức cho Notebook này" và dừng lại.
+Nếu có dữ liệu: Hệ thống đóng gói danh sách Nút và Cạnh dưới dạng cấu trúc dữ liệu JSON.
+Render & Tương tác:
+Frontend nhận dữ liệu và tiến hành vẽ đồ thị mạng lưới trên khung vẽ.
+Cho phép người dùng thực hiện các thao tác tương tác như phóng to/thu nhỏ , di chuyển vị trí nút , di chuột xem chi tiết thực thể.
+Kết thúc: Người dùng quan sát toàn cảnh mạng lưới tri thức của tài liệu.
+4.5 Mô tả cơ sở dữ liệu 
+4.5.1. Các bước thiết kế cơ sở dữ liệu
+Khi thiết kế cơ sở dữ liệu cho hệ thống DocuGraph RAG, để đảm bảo hiệu năng truy vấn, khả năng mở rộng và tránh dư thừa dữ liệu, quy trình thiết kế được thực hiện theo 5 bước sau:
+Bước 1: Xác định mục tiêu khai thác CSDL: Hệ thống cần quản lý thông tin người dùng, lưu trữ danh mục sổ tay làm việc, theo dõi các tệp tài liệu tải lên (PDF, Ảnh OCR, URL Web), lưu vết lịch sử hội thoại AI Chat, đồng thời xây dựng Đồ thị tri thức (Knowledge Graph) và lưu trữ Vector Embeddings để hỗ trợ truy vấn thông tin chính xác (GraphRAG).
+Bước 2: Xác định các bảng dữ liệu và thực thể đồ thị cần thiết: Cơ sở dữ liệu quan hệ (PostgreSQL) hình thành 4 bảng chính: users, notebooks, sources, chat_messages.
+Cơ sở dữ liệu đồ thị (Neo4j) hình thành các nút cấu trúc (Notebook, Source, Chunk) và các thực thể tri thức (Person, Organization, Location, Document, Concept...).
+Bước 3: Xác định các trường dữ liệu (Attributes): Xác định các thuộc tính cần lưu trữ trong từng bảng và từng nút (ID định danh UUID, email, hashed_password, filename, file_type, role, content, vector embedding 768 chiều...).
+Bước 4: Xác định các mối quan hệ (Relationships):Trên PostgreSQL: Thiết lập quan hệ 1-N giữa users  notebooks, notebooks ➔ sources, và notebooks ➔ chat_messages.
+Trên Neo4j: Thiết lập quan hệ liên kết đồ thị giữa Chunk ➔ Source ➔ Notebook (PART_OF, BELONGS_TO), và mối quan hệ tri thức giữa các thực thể (EMPLOYED_BY, LOCATED_IN, ISSUED_BY...).
+Bước 5: Tinh chế và hiệu chỉnh thiết kế: Tạo các chỉ mục (Index) trên khóa chính UUID, chuẩn hóa dữ liệu, tạo chunk_vector_index trên Neo4j để tối ưu thuật toán tìm kiếm tương đồng Cosine Similarity, và thiết lập ràng buộc xóa dây chuyền (ON DELETE CASCADE).
+4.5.2. Cài đặt cơ sở dữ liệu
+Hệ thống trợ lý AI hỏi đáp tài liệu DocuGraph RAG được xây dựng và triển khai sử dụng mô hình Lưu trữ Kép (Hybrid Database) gồm Hệ quản trị CSDL Quan hệ PostgreSQL 16 và CSDL Đồ thị Neo4j 5.12, bao gồm các bảng và nút cơ sở dữ liệu sau:
+A. Bảng users (Thông tin người dùng):
+Tên cột
+Kiểu dữ liệu
+Ý nghĩa
+id
+uuid
+Primary Key: Mã định danh duy nhất của người dùng (tự sinh UUIDv4).
+email
+varchar(255)
+Địa chỉ Email dùng để đăng nhập (Unique, Indexed).
+hashed_password
+varchar(255)
+Mật khẩu tài khoản (đã được băm an toàn, NULL nếu dùng Google OAuth).
+full_name
+varchar(255)
+Họ và tên hiển thị của người dùng.
+avatar_url
+text
+Đường dẫn ảnh đại diện người dùng.
+auth_provider
+varchar(20)
+Phương thức xác thực ('local' hoặc 'google').
+google_id
+varchar(255)
+Mã định danh Google OAuth (nếu đăng nhập bằng Google).
+is_active
+bool
+Trạng thái tài khoản (True = Hoạt động, False = Bị khóa).
+created_at
+datetime
+Thời điểm tài khoản được tạo.
+updated_at
+datetime
+Thời điểm cập nhật thông tin tài khoản gần nhất.
+Bảng notebooks (Quản lý Sổ tay / Không gian làm việc):
+Tên cột
+Kiểu dữ liệu
+Ý nghĩa
+id
+uuid
+Primary Key: Mã định danh duy nhất cho mỗi sổ tay.
+user_id
+uuid
+Foreign Key: Liên kết với bảng users (ai là người sở hữu sổ tay).
+title
+varchar(255)
+Tên của sổ tay/không gian làm việc.
+description
+text
+Mô tả chi tiết về nội dung sổ tay.
+created_at
+datetime
+Thời điểm tạo sổ tay.
+updated_at
+datetime
+Thời điểm cập nhật sổ tay gần nhất.
+Bảng sources (Nguồn tài liệu tải lên):
+Tên cột
+Kiểu dữ liệu
+Ý nghĩa
+id
+uuid
+Primary Key: Mã định danh cho từng tệp tài liệu.
+notebook_id
+uuid
+Foreign Key: Liên kết với bảng notebooks (tài liệu thuộc sổ tay nào).
+filename
+varchar(500)
+Tên tệp tin thực tế lưu trữ trong ổ đĩa hệ thống (uploads/).
+file_type
+varchar(20)
+Loại nguồn tài liệu ('pdf', 'image', 'url').
+original_name
+varchar(500)
+Tên tệp tin gốc hoặc địa chỉ Web URL khi tải lên.
+status
+varchar(20)
+Trạng thái xử lý RAG ('processing', 'ready', 'error').
+page_count
+integer
+Số lượng trang của tài liệu (áp dụng cho file PDF).
+content_preview
+text
+Đoạn xem trước (200 ký tự đầu tiên) của văn bản trích xuất.
+url
+text
+Đường dẫn địa chỉ trang web (áp dụng cho nguồn URL).
+error_message
+text
+Thông báo chi tiết nếu quá trình OCR/trích xuất gặp lỗi.
+metadata_json
+json
+Metadata bổ sung của tài liệu lưu dưới dạng JSON.
+created_at
+datetime
+Thời điểm tệp tin được tải lên hệ thống.
+Bảng chat_messages (Lịch sử hội thoại AI):
+Tên cột
+Kiểu dữ liệu
+Ý nghĩa
+id
+uuid
+Primary Key: Mã định danh của câu hội thoại.
+notebook_id
+uuid
+Foreign Key: Liên kết với bảng notebooks.
+role
+varchar(20)
+Vai trò người phát biểu ('user' = Người dùng, 'assistant' = AI).
+content
+text
+Nội dung tin nhắn câu hỏi hoặc câu trả lời của AI.
+sources_used
+json
+Danh sách ID tài liệu tham khảo được sử dụng để trả lời.
+created_at
+datetime
+Thời điểm gửi tin nhắn.
+E. Cơ sở dữ liệu Đồ thị Tri thức Neo4j (Graph & Vector Store):
+Các Nhãn Thực thể (Node Labels):
+Notebook, Source, Chunk: Quản lý cấu trúc đoạn văn bản và mảng Vector embedding 768 chiều.
+Person, Organization, Location, Document, Concept, Date...: Thực thể tri thức trích xuất tự động bởi Gemini LLM.
+Các Mối quan hệ Đồ thị (Relationship Types):
+PART_OF, BELONGS_TO, MENTIONED_IN: Nối từ Chunk đến Source, Notebook và các thực thể được nhắc tới trong văn bản.
+EMPLOYED_BY, LOCATED_IN, ISSUED_BY, COVERS_RISK...: Các quan hệ ngữ nghĩa giữa các thực thể tri thức trong đồ thị
+4.5.3 Mô hình ERD
+Hình 4.17: Mô hình ERD
+4.6 Tổng kết chương 4 
+CHƯƠNG 5: TRIỂN KHAI VÀ XÂY DỰNG HỆ THỐNG
+5.1. Chuẩn bị môi trường
+Môi trường Frontend:
+Node.js: Phiên bản LTS (Node.js 18.x / 20.x).
+Package Manager: npm.
+Framework & Thư viện UI: Next.js 15 (React 19), Tailwind CSS.
+Thư viện Icons & Hiệu ứng: lucide-react, canvas-confetti.
+Thư viện trực quan hóa: cytoscape biểu diễn Đồ thị tri thức.
+Công cụ hỗ trợ phát triển: ESLint, PostCSS, Tailwind Config.
+Môi trường Backend:
+Ngôn ngữ lập trình: Python 3.12+.
+Trình quản lý gói & môi trường ảo: uv.
+Web Framework: FastAPI.
+Khung RAG & LLM: LangChain, Google GenAI SDK.
+Thư viện trích xuất dữ liệu: PaddleOCR nhận dạng chữ từ ảnh, PyMuPDF / fitz (đọc tệp PDF), BeautifulSoup4 & httpx bóc tách nội dung Web URL.
+Công cụ bảo mật & xác thực: PyJWT, Passlib.
+Cơ sở dữ liệu:
+Hệ quản trị CSDL Quan hệ: PostgreSQL 16.
+Hệ quản trị CSDL Đồ thị: Neo4j 5.12.
+Triển khai CSDL: Chạy tự động thông qua Docker và docker-compose.
+Tên CSDL: notebooklm (PostgreSQL), neo4j.
+Các công cụ hỗ trợ:
+Git: Quản lý mã nguồn và phiên bản code.
+Swagger UI / ReDoc: Kiểm thử và tài liệu hóa tự động các endpoint API.
+Docker & Docker Compose: Quản lý và đóng gói các dịch vụ CSDL.
+5.1.1. Triển khai Backend
+Khởi tạo Project FastAPI & Môi trường:
+Khởi tạo cấu trúc thư mục dự án Python backend với trình quản lý uv.
+Cấu hình biến môi trường trong tệp .env:
+ Xây dựng các Module / Service chức năng:
+auth_service: Xử lý đăng ký, đăng nhập tài khoản mã hóa mật khẩu Bcrypt, phát hành Token JWT và đăng nhập qua Google OAuth.
+notebook_service: Quản lý CRUD Sổ tay làm việc và các tài liệu nguồn liên quan.
+pdf_service & ocr_service: Trích xuất văn bản từ tệp PDF và ảnh chụp tài liệu sử dụng mô hình AI PaddleOCR (hỗ trợ tiếng Việt).
+web_scraper_service: Tải nội dung văn bản thuần từ các trang web (Web URL).
+embedding_service & neo4j_service: Cắt nhỏ văn bản (Chunking), tạo Vector Embedding 768 chiều từ Gemini, trích xuất Thực thể (Entities) & Mối quan hệ (Relationships) để lưu vào Neo4j.
+rag_service: Tìm kiếm lai (Hybrid Vector + Graph Search) và sinh câu trả lời Streaming real-time từ LLM.
+Tạo các Entity / Models (SQLAlchemy ORM):
+User: Quản lý thông tin tài khoản người dùng, phương thức đăng nhập.
+Notebook: Quản lý thông tin các không gian làm việc/sổ tay.
+Source: Quản lý danh sách các file PDF, Ảnh OCR, URL thuộc về từng sổ tay.
+ChatMessage: Lưu vết các câu hỏi và câu trả lời của AI trong sổ tay.
+5.1.2. Triển khai Frontend
+Cài đặt các thư viện:
+Cài đặt Next.js 15, Tailwind CSS cho việc thiết kế giao diện hiện đại .
+Cài đặt lucide-react để hiển thị bộ icon chuẩn hóa UI.
+Xây dựng các màn hình giao diện:
+Màn hình Đăng nhập / Đăng ký: Giao diện đăng nhập bảo mật bằng Email/Mật khẩu và nút Đăng nhập nhanh Google.
+Trang Dashboard Quản lý Sổ tay: Hiển thị danh sách các Notebook hiện có, cho phép tạo Notebook mới hoặc xóa Notebook.
+Trang Không gian làm việc Notebook:
+Panel Trái: Module tải tài liệu và danh sách tài liệu.
+Panel Phải: Chuyển đổi Tab giữa Giao diện Chat AI và Giao diện Đồ thị tri thức.
+Màn hình Xem văn bản gốc tài liệu: Cho phép xem chi tiết nội dung văn bản trích xuất từ PDF hoặc OCR.
+Kết nối API & Quản lý Session
+Sử dụng thư viện Fetch API/Axios để gọi RESTful API đến Server FastAPI 
+Quản lý phiên làm việc bằng Token JWT lưu trữ tại localStorage và React Context (AuthContext.js).
+5.1.4. Bảo trì và triển khai thực tế
+1. Cấu hình môi trường Production
+Frontend: Build gói Production tối ưu bằng npm run build, phục vụ bởi Next.js Server hoặc Nginx Reverse Proxy.
+Backend: Chạy Uvicorn ASGI Server hỗ trợ đa tiến trình .
+Containerization: Đóng gói toàn bộ ứng dụng thông qua tệp docker-compose.yml để dễ dàng triển khai trên VPS/Cloud Server.
+2. Sao lưu và khôi phục CSDL 
+PostgreSQL: Lập lịch tự động chạy lệnh pg_dump để sao lưu dữ liệu quan hệ và lịch sử chat định kỳ.
+Neo4j: Sao lưu các tệp dữ liệu nút và chỉ mục vector.
+3. Giám sát hệ thống
+Backend Logging: Sử dụng module logging chuẩn của Python để lưu vết quy trình xử lý OCR, Embedding và truy vấn LLM.
+Front-end Error Catching: Theo dõi lỗi phản hồi API tại các React Boundary components.
+5.2. Giao diện Website DocuGraph RAG
+Đây là ứng dụng web hỗ trợ trợ lý AI hỏi đáp tài liệu thông minh kết hợp Knowledge Graph.
+Thông điệp chính: “DocuGraph RAG — Nền Tảng Trích Xuất & Hỏi Đáp Tài Liệu Thông Minh” ➔ Giải pháp giúp người dùng tra cứu, phân tích tài liệu đa nguồn nhanh chóng và chính xác.
+Nút hành động chính: Nút “Tạo Notebook mới” cho phép người dùng bắt đầu không gian phân tích tài liệu ngay lập tức.
+Các tính năng nổi bật trên giao diện:
+Đa dạng nguồn tài liệu: Hỗ trợ kéo thả tải lên file PDF, xử lý đọc chữ từ Ảnh chụp bằng PaddleOCR, hoặc nhập đường dẫn Web URL.
+Hỏi đáp AI thông minh: Phản hồi từng ký tự theo thời gian thực, có trích dẫn nguồn tài liệu tham khảo cụ thể.
+Đồ thị tri thức trực quan: Trực quan hóa mối quan hệ giữa các thực thể trong tài liệu bằng đồ thị bóng/nút giúp người dùng hiểu sâu ngữ cảnh dữ liệu.
+5.3. Giao diện Website
+Đây là trang giới thiệu và giao diện chính của ứng dụng có tên DocuGraph RAG.
+Thông điệp chính: “DocuGraph RAG — Nền Tảng Trích Xuất & Hỏi Đáp Tài Liệu Thông Minh với Đồ thị Tri thức” ➔ Giúp người dùng tra cứu, phân tích và trích xuất thông tin tự động từ tài liệu đa nguồn (PDF, Ảnh OCR, Web URL) một cách nhanh chóng và chính xác.
+Có nút Bắt đầu ngay / Tạo Notebook mới (Truy cập sử dụng ngay không cần thẻ tín dụng, hỗ trợ xử lý tiếng Việt tối ưu bằng mô hình Gemini 2.5 Flash).
+Bên dưới là các tính năng nổi bật:
+Multi-Source OCR & Scraping: Tải lên PDF, tự động đọc chữ từ ảnh chụp bằng PaddleOCR, và cào dữ liệu từ đường dẫn Web URL.
+Hybrid RAG & Streaming Chat: Hỏi đáp AI thời gian thực (Streaming) có kèm trích dẫn chính xác nguồn tài liệu tham khảo (Source Citations).
+Interactive Knowledge Graph: Tự động trích xuất các thực thể (Con người, Tổ chức, Địa điểm...) và trực quan hóa mối quan hệ dưới dạng đồ thị mạng lưới tương tác (Neo4j Graph DB).
+Hình 5.1: Trang chính của website
+Hình 5.2: Giao diện Đăng ký - Đăng nhập
+Đây là bước đầu tiên để người dùng truy cập vào hệ thống DocuGraph RAG.
+Giao diện thiết kế theo phong cách Glassmorphism hiện đại trên nền Gradient êm dịu.
+Cho phép người dùng đăng nhập bằng Email & Mật khẩu (mã hóa an toàn JWT Token) hoặc Đăng nhập nhanh 1-Click bằng Google OAuth.
+Có tab chuyển đổi linh hoạt giữa Đăng nhập và Đăng ký tài khoản.
+Phía dưới có các link phụ trợ & thông tin hệ thống: Điều khoản dịch vụ, Hướng dẫn sử dụng RAG, Tài liệu API Swagger, Hỗ trợ OCR tiếng Việt.
+Hình 5.3: Giao diện đầu khi đăng nhập
+Đây là màn hình làm việc sau khi người dùng đăng nhập thành công vào hệ thống.
+Header trên cùng:
+Logo biểu tượng Sparkles và tên ứng dụng DocuGraph RAG.
+Nút + New Notebook để tạo mới sổ tay làm việc.
+Menu tài khoản người dùng (Hiển thị tên, Avatar, Nút Đăng xuất Logout).
+Phần giữa hiển thị:
+Danh sách Sổ tay (Notebooks Grid): Hiển thị danh sách các không gian làm việc hiện có dạng thẻ (Card View) như: Sổ tay Nghiên cứu Khoa học, Tài liệu Hợp đồng, Báo cáo Tài chính...
+Thông tin trên mỗi thẻ Notebook: Tên sổ tay, số lượng tài liệu đã nạp (ví dụ: 3 sources), thời gian khởi tạo.
+Thao tác nhanh: Nhấp để mở không gian làm việc hoặc nút icon Xóa (Trash2) để xóa sổ tay.
+Giao diện thiết kế màu sắc hiện đại, thẻ nổi phản hồi hover mượt mà, giúp người dùng tập trung quản lý các dự án tài liệu lâu dài.
+Hình 5.4: Giao diện làm việc chính
+Màn hình làm việc chuyên sâu sau khi người dùng chọn mở một Notebook cụ thể.
+Thanh Header phụ: Nút mũi tên Quay lại (Back), hiển thị tên Sổ tay đang chọn (ví dụ: Nghiên cứu), tổng số nguồn tài liệu hiện có và Menu người dùng.
+Bố cục 2 cột chính:
+Cột bên trái (Left Panel): Chứa Module Tải tài liệu (DocumentUpload) và Danh sách các nguồn tài liệu đã tải lên (DocumentList).
+Cột bên phải (Right Panel): Bộ chuyển đổi Tab linh hoạt giữa AI Chat (RAG) và Knowledge Graph (Đồ thị tri thức).
+Hình 5.5: Giao diện nạp dữ liệu vào cho file
+Cung cấp khả năng nạp dữ liệu đa nguồn vượt trội cho hệ thống AI:
+Khu vực Tải lên (Document Upload): Hỗ trợ 3 định dạng đầu vào:
+File PDF: Kéo-thả tệp PDF đa trang, hệ thống tự động phân trang và trích xuất bằng PyMuPDF.
+Ảnh chụp (OCR): Tải tệp hình ảnh (PNG, JPG), tích hợp mô hình PaddleOCR đọc chữ tiếng Việt độ chính xác cao.
+Web URL: Nhập đường dẫn trang web, tự động bóc tách bài viết thuần bằng BeautifulSoup4.
+Danh sách Nguồn tài liệu (Document List):
+Hiển thị danh sách các file đã nạp kèm icon loại tệp (PDF, IMAGE, URL).
+Trạng thái xử lý real-time: PROCESSING (Đang trích xuất & tạo Vector), READY (Sẵn sàng hỏi đáp), hoặc ERROR (Gặp lỗi).
+Nút biểu tượng Mắt (Eye) để mở cửa sổ xem nội dung văn bản gốc.
+Hình 5.6: Giao diện xem chi tiết nguồn tài liệu
+Màn hình modal hiển thị khi người dùng nhấp xem chi tiết một nguồn tài liệu:
+Thông tin thuộc tính: Tên tệp gốc (ví dụ: 3-1.pdf), Loại tệp, Số trang (3 trang), Trạng thái xử lý (READY), Ngày tải lên.
+Khung nội dung văn bản (Extracted Text Preview): Hiển thị toàn bộ đoạn văn bản thô đã trích xuất được từ PDF hoặc mô hình PaddleOCR.
+Giúp người dùng dễ dàng kiểm tra, đối chiếu độ chính xác của nội dung dữ liệu đầu vào trước khi tiến hành hỏi đáp AI.
+Hình 5.7: Giao diện hội thoại và làm việc chung
+Khung hội thoại RAG trực tiếp với tập tài liệu trong sổ tay:
+Phản hồi Streaming real-time: Câu trả lời của AI từ mô hình Gemini 2.5 Flash xuất hiện mượt mà từng từ theo thời gian thực.
+Trích dẫn nguồn tài liệu gốc (Source Citations): Phía dưới mỗi câu trả lời của AI đều kèm danh sách các trích dẫn rõ ràng (ví dụ: [Nguồn: 3-1.pdf, Trang 2]). Nhấp vào trích dẫn sẽ hiển thị chính xác đoạn văn bản gốc AI dùng làm căn cứ.
+Tính năng phụ trợ:
+Gợi ý câu hỏi nhanh (Quick Prompt Suggesters).
+Nút Xóa lịch sử chat (Clear Chat History) để bắt đầu luồng hội thoại mới.
+Hình 5.9: Giao diện mạng lưới Knowledge Graph
+Màn hình biểu diễn mạng lưới Knowledge Graph sinh tự động từ tập tài liệu:
+Hiển thị Đồ thị tương tác (Interactive Graph View):
+Các nút (Nodes): Phân màu đặc trưng cho từng loại thực thể (Person - Xanh lá, Organization - Xanh dương, Location - Cam, Document - Tím, Concept - Vàng...).
+Các đường nối (Edges): Thể hiện mối quan hệ ngữ nghĩa giữa các thực thể (EMPLOYED_BY, LOCATED_IN, ISSUED_BY, COVERS_RISK...).
+Bộ công cụ tương tác:
+Phóng to/Thu nhỏ (Zoom In/Out), kéo thả di chuyển vị trí nút.
+Bộ lọc thực thể (Filter Entities according to Label).
+Bảng thống kê tổng số Thực thể (Nodes) và Mối quan hệ (Edges) thu được trong sổ tay.
+KIẾN NGHỊ VÀ KẾT LUẬN
+<Kết luận về những gì mà báo cáo thực tập đã làm được và kiến nghị để thực hiện các giải pháp (nếu có)>
+TÀI LIỆU THAM KHẢO
+Lưu ý rằng: Tổng số trang báo cáo thực tập tối thiểu 30 trang.
